@@ -18,7 +18,6 @@ struct NavigationBarTransparentStyle: ViewModifier {
         coloredAppearance.configureWithTransparentBackground()
         coloredAppearance.backgroundColor = .clear
 
-        // keep the shadow image
         color.map {
             coloredAppearance.titleTextAttributes = [.foregroundColor: UIColor($0)]
             coloredAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor($0)]
@@ -28,6 +27,9 @@ struct NavigationBarTransparentStyle: ViewModifier {
     }
 
     init(tintColor: Color? = nil) {
+        
+        // Init should be fast in SwiftUI
+        // so we cache the Appearance here
         let apply: (UINavigationBarAppearance) -> Void = {
             guard UINavigationBar.appearance() != $0 else {
                 return

@@ -23,7 +23,7 @@ struct NavigationBarColorModifier<Background>: ViewModifier where Background: Vi
 }
 
 public extension View {
-    func navigationBar<Background: View>(@ViewBuilder background: @escaping () -> Background) -> some View {
+    func navigationBarBackground<Background: View>(@ViewBuilder _ background: @escaping () -> Background) -> some View {
         modifier(NavigationBarColorModifier(background: background))
     }
 }

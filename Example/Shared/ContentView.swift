@@ -35,7 +35,7 @@ struct DetailView1: View {
                 }
             )
 
-        }.navigationBar {
+        }.navigationBarBackground {
             Color.red.shadow(radius: 1) // don't forget the shadow under the opaque bar
         }
     }
@@ -51,7 +51,7 @@ struct DetailView2: View {
                     Text("Next")
                 }
             )
-        }.navigationBar {
+        }.navigationBarBackground {
             Color.blue.shadow(radius: 1) // don't forget the shadow under the opaque bar
         }
     }
@@ -67,7 +67,7 @@ struct DetailView3: View {
                     Text("Next")
                 }
             )
-        }.navigationBar {
+        }.navigationBarBackground {
             Image("rainbow").resizable().background(Color.pink)
         }
     }
@@ -77,7 +77,7 @@ struct DetailView4: View {
     var body: some View {
         VStack {
             Image("rainbow").resizable().background(Color.pink).edgesIgnoringSafeArea(.top)
-        }.navigationBar {
+        }.navigationBarBackground {
             VisualEffectBlur(blurStyle: .systemChromeMaterialDark, vibrancyStyle: .fill) {
                 Color.clear
             }
