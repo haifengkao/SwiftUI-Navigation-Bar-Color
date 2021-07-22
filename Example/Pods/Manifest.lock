@@ -1,5 +1,5 @@
 PODS:
-  - NavigationBarColor (0.2.0)
+  - NavigationBarColor (0.3.0)
   - Nimble (9.2.0)
   - Quick (4.0.0)
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NavigationBarColor: 6e31957e5e98317df5ad0390ef7d370c05b8c405
+  NavigationBarColor: a9a13187d003a5b84fc87b52b501f38dc632b574
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
 
