@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0718A2BAF6925DB5C1E1E4FA /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */; };
+		0B27A0D5CA476EE482253E65 /* Pods_Tests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */; };
+		33AADBB1EAAB38FDC1DCFCE5 /* Pods_NavigationBarColor__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */; };
+		5ACDA00EA7A5F96474590DFB /* Pods_NavigationBarColor__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */; };
+		F9264F9726A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
+		F9264F9826A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
+		F9264F9926A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */; };
+		F9264F9A26A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */; };
+		F95D612D2657D22F00E7D582 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D612C2657D22F00E7D582 /* Tests_iOS.swift */; };
+		F95D61382657D22F00E7D582 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61372657D22F00E7D582 /* Tests_macOS.swift */; };
+		F95D613A2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */; };
+		F95D613B2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */; };
+		F95D613C2657D22F00E7D582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61122657D22D00E7D582 /* ContentView.swift */; };
+		F95D613D2657D22F00E7D582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61122657D22D00E7D582 /* ContentView.swift */; };
+		F95D613E2657D22F00E7D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95D61132657D22F00E7D582 /* Assets.xcassets */; };
+		F95D613F2657D22F00E7D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95D61132657D22F00E7D582 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F95D61292657D22F00E7D582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95D610C2657D22D00E7D582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95D61172657D22F00E7D582;
+			remoteInfo = "NavigationBarColor (iOS)";
+		};
+		F95D61342657D22F00E7D582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95D610C2657D22D00E7D582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95D611F2657D22F00E7D582;
+			remoteInfo = "NavigationBarColor (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarColor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests macOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests macOS/Pods-Tests macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests macOS.release.xcconfig"; path = "Target Support Files/Pods-Tests macOS/Pods-Tests macOS.release.xcconfig"; sourceTree = "<group>"; };
+		76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).release.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7CF02B3D19C4961CE2AE61AE /* NavigationBarColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationBarColor.podspec; path = ../NavigationBarColor.podspec; sourceTree = "<group>"; };
+		8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarColor__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (macOS).debug.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (macOS).release.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).debug.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		B9C5674E205CCBF67E667771 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9EE8A500A798C84E64FB430 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-Mac.swift"; sourceTree = "<group>"; };
+		F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-iOS.swift"; sourceTree = "<group>"; };
+		F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorApp.swift; sourceTree = "<group>"; };
+		F95D61122657D22D00E7D582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F95D61132657D22F00E7D582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D611B2657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D61222657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95D61232657D22F00E7D582 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F95D61282657D22F00E7D582 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D612C2657D22F00E7D582 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F95D612E2657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95D61332657D22F00E7D582 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D61372657D22F00E7D582 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F95D61392657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95D61152657D22F00E7D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AADBB1EAAB38FDC1DCFCE5 /* Pods_NavigationBarColor__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D611D2657D22F00E7D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACDA00EA7A5F96474590DFB /* Pods_NavigationBarColor__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D61252657D22F00E7D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718A2BAF6925DB5C1E1E4FA /* Pods_Tests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D61302657D22F00E7D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B27A0D5CA476EE482253E65 /* Pods_Tests_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31983783282B385CAABAC1C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */,
+				76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */,
+				8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */,
+				A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */,
+				1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */,
+				78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */,
+				477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */,
+				488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8C1D6B4AFE6CE1F93E3FEE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */,
+				8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */,
+				FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */,
+				2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95D610B2657D22D00E7D582 = {
+			isa = PBXGroup;
+			children = (
+				F95D615A26581C5800E7D582 /* Podspec Metadata */,
+				F95D61102657D22D00E7D582 /* Shared */,
+				F95D611A2657D22F00E7D582 /* iOS */,
+				F95D61212657D22F00E7D582 /* macOS */,
+				F95D612B2657D22F00E7D582 /* Tests iOS */,
+				F95D61362657D22F00E7D582 /* Tests macOS */,
+				F95D61192657D22F00E7D582 /* Products */,
+				31983783282B385CAABAC1C0 /* Pods */,
+				C8C1D6B4AFE6CE1F93E3FEE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F95D61102657D22D00E7D582 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */,
+				F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */,
+				F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */,
+				F95D61122657D22D00E7D582 /* ContentView.swift */,
+				F95D61132657D22F00E7D582 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F95D61192657D22F00E7D582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */,
+				F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */,
+				F95D61282657D22F00E7D582 /* Tests iOS.xctest */,
+				F95D61332657D22F00E7D582 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F95D611A2657D22F00E7D582 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F95D611B2657D22F00E7D582 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F95D61212657D22F00E7D582 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F95D61222657D22F00E7D582 /* Info.plist */,
+				F95D61232657D22F00E7D582 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F95D612B2657D22F00E7D582 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F95D612C2657D22F00E7D582 /* Tests_iOS.swift */,
+				F95D612E2657D22F00E7D582 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F95D61362657D22F00E7D582 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F95D61372657D22F00E7D582 /* Tests_macOS.swift */,
+				F95D61392657D22F00E7D582 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F95D615A26581C5800E7D582 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				7CF02B3D19C4961CE2AE61AE /* NavigationBarColor.podspec */,
+				B9C5674E205CCBF67E667771 /* README.md */,
+				C9EE8A500A798C84E64FB430 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (iOS)" */;
+			buildPhases = (
+				B176FAEA42E285C5F88FF92F /* [CP] Check Pods Manifest.lock */,
+				F95D61142657D22F00E7D582 /* Sources */,
+				F95D61152657D22F00E7D582 /* Frameworks */,
+				F95D61162657D22F00E7D582 /* Resources */,
+				AA487A5D4439F0B1471282B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NavigationBarColor (iOS)";
+			productName = "NavigationBarColor (iOS)";
+			productReference = F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (macOS)" */;
+			buildPhases = (
+				F41769962CBCDA0766974D5D /* [CP] Check Pods Manifest.lock */,
+				F95D611C2657D22F00E7D582 /* Sources */,
+				F95D611D2657D22F00E7D582 /* Frameworks */,
+				F95D611E2657D22F00E7D582 /* Resources */,
+				89235F2CAAA115C37BFC9112 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NavigationBarColor (macOS)";
+			productName = "NavigationBarColor (macOS)";
+			productReference = F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F95D61272657D22F00E7D582 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95D61482657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				FE2DB6498FC719AAA83BE35F /* [CP] Check Pods Manifest.lock */,
+				F95D61242657D22F00E7D582 /* Sources */,
+				F95D61252657D22F00E7D582 /* Frameworks */,
+				F95D61262657D22F00E7D582 /* Resources */,
+				DD322E6C16B3A7E8EB8D0483 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95D612A2657D22F00E7D582 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F95D61282657D22F00E7D582 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F95D61322657D22F00E7D582 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95D614B2657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				FE3472A5EA63616DF7D8E118 /* [CP] Check Pods Manifest.lock */,
+				F95D612F2657D22F00E7D582 /* Sources */,
+				F95D61302657D22F00E7D582 /* Frameworks */,
+				F95D61312657D22F00E7D582 /* Resources */,
+				D7769715143DCD32D4FD9819 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95D61352657D22F00E7D582 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F95D61332657D22F00E7D582 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F95D610C2657D22D00E7D582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F95D61172657D22F00E7D582 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F95D611F2657D22F00E7D582 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F95D61272657D22F00E7D582 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F95D61172657D22F00E7D582;
+					};
+					F95D61322657D22F00E7D582 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F95D611F2657D22F00E7D582;
+					};
+				};
+			};
+			buildConfigurationList = F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "NavigationBarColor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F95D610B2657D22D00E7D582;
+			productRefGroup = F95D61192657D22F00E7D582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */,
+				F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */,
+				F95D61272657D22F00E7D582 /* Tests iOS */,
+				F95D61322657D22F00E7D582 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95D61162657D22F00E7D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D613E2657D22F00E7D582 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D611E2657D22F00E7D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D613F2657D22F00E7D582 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D61262657D22F00E7D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D61312657D22F00E7D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89235F2CAAA115C37BFC9112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA487A5D4439F0B1471282B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B176FAEA42E285C5F88FF92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBarColor (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7769715143DCD32D4FD9819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD322E6C16B3A7E8EB8D0483 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41769962CBCDA0766974D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBarColor (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2DB6498FC719AAA83BE35F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3472A5EA63616DF7D8E118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95D61142657D22F00E7D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D613C2657D22F00E7D582 /* ContentView.swift in Sources */,
+				F9264F9726A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
+				F95D613A2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */,
+				F9264F9926A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D611C2657D22F00E7D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D613D2657D22F00E7D582 /* ContentView.swift in Sources */,
+				F9264F9826A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
+				F95D613B2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */,
+				F9264F9A26A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D61242657D22F00E7D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D612D2657D22F00E7D582 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95D612F2657D22F00E7D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95D61382657D22F00E7D582 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F95D612A2657D22F00E7D582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */;
+			targetProxy = F95D61292657D22F00E7D582 /* PBXContainerItemProxy */;
+		};
+		F95D61352657D22F00E7D582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */;
+			targetProxy = F95D61342657D22F00E7D582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F95D61402657D22F00E7D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F95D61412657D22F00E7D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F95D61432657D22F00E7D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
+				PRODUCT_NAME = NavigationBarColorExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F95D61442657D22F00E7D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
+				PRODUCT_NAME = NavigationBarColorExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F95D61462657D22F00E7D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
+				PRODUCT_NAME = NavigationBarColorExample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F95D61472657D22F00E7D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
+				PRODUCT_NAME = NavigationBarColorExample;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F95D61492657D22F00E7D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NavigationBarColor (iOS)";
+			};
+			name = Debug;
+		};
+		F95D614A2657D22F00E7D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NavigationBarColor (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F95D614C2657D22F00E7D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NavigationBarColor (macOS)";
+			};
+			name = Debug;
+		};
+		F95D614D2657D22F00E7D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NavigationBarColor (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "NavigationBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95D61402657D22F00E7D582 /* Debug */,
+				F95D61412657D22F00E7D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95D61432657D22F00E7D582 /* Debug */,
+				F95D61442657D22F00E7D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95D61462657D22F00E7D582 /* Debug */,
+				F95D61472657D22F00E7D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95D61482657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95D61492657D22F00E7D582 /* Debug */,
+				F95D614A2657D22F00E7D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95D614B2657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95D614C2657D22F00E7D582 /* Debug */,
+				F95D614D2657D22F00E7D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F95D610C2657D22D00E7D582 /* Project object */;
+}

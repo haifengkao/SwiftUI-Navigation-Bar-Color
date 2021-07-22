@@ -1,0 +1,43 @@
+source 'https://cdn.cocoapods.org/'
+
+# SwiftUI preview doesn't work with static linkage framework
+# but static linkage will reduce app startup time, it should be used in release
+use_frameworks!
+# use_frameworks! :linkage => :static
+
+
+def allPods
+  pod 'NavigationBarColor', :path => '../'
+end
+
+target 'NavigationBarColor (iOS)' do
+  platform :ios, '14.0'
+  allPods
+end
+
+target 'Tests iOS' do
+  platform :ios, '14.0'
+  allPods
+  pod 'Quick'
+    pod 'Nimble'
+end
+
+target 'NavigationBarColor (macOS)' do
+  platform :osx, '11.0'
+  allPods
+end
+
+target 'Tests macOS' do
+  platform :osx, '11.0'
+  allPods
+  pod 'Quick'
+    pod 'Nimble'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    end
+  end
+end

@@ -1,0 +1,27 @@
+PODS:
+  - NavigationBarColor (0.1.0)
+  - Nimble (9.2.0)
+  - Quick (4.0.0)
+
+DEPENDENCIES:
+  - NavigationBarColor (from `../`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  NavigationBarColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NavigationBarColor: 37bb636801352d7af46f8b49425a62c1e1532532
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+
+PODFILE CHECKSUM: 30bd950b564378753dc9fc72b20eb314f0bde873
+
+COCOAPODS: 1.10.1
