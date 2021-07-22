@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0718A2BAF6925DB5C1E1E4FA /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */; };
-		0B27A0D5CA476EE482253E65 /* Pods_Tests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */; };
 		33AADBB1EAAB38FDC1DCFCE5 /* Pods_NavigationBarColor__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */; };
-		5ACDA00EA7A5F96474590DFB /* Pods_NavigationBarColor__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */; };
 		F9264F9726A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
 		F9264F9826A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
 		F9264F9926A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */; };
@@ -45,15 +43,9 @@
 /* Begin PBXFileReference section */
 		1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarColor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests macOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests macOS/Pods-Tests macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests macOS.release.xcconfig"; path = "Target Support Files/Pods-Tests macOS/Pods-Tests macOS.release.xcconfig"; sourceTree = "<group>"; };
 		76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).release.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7CF02B3D19C4961CE2AE61AE /* NavigationBarColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationBarColor.podspec; path = ../NavigationBarColor.podspec; sourceTree = "<group>"; };
-		8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarColor__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (macOS).debug.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS).debug.xcconfig"; sourceTree = "<group>"; };
-		A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (macOS).release.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).debug.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		B9C5674E205CCBF67E667771 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9EE8A500A798C84E64FB430 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -89,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ACDA00EA7A5F96474590DFB /* Pods_NavigationBarColor__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B27A0D5CA476EE482253E65 /* Pods_Tests_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +107,8 @@
 			children = (
 				B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */,
 				76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */,
-				8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */,
-				A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */,
 				1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */,
 				78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */,
-				477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */,
-				488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -131,9 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */,
-				8AB14F15349FC4C72024B93A /* Pods_NavigationBarColor__macOS_.framework */,
 				FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */,
-				2B9AD1EAF2613E2E3D2EC8A9 /* Pods_Tests_macOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,11 +231,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (macOS)" */;
 			buildPhases = (
-				F41769962CBCDA0766974D5D /* [CP] Check Pods Manifest.lock */,
 				F95D611C2657D22F00E7D582 /* Sources */,
 				F95D611D2657D22F00E7D582 /* Frameworks */,
 				F95D611E2657D22F00E7D582 /* Resources */,
-				89235F2CAAA115C37BFC9112 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,11 +268,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95D614B2657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				FE3472A5EA63616DF7D8E118 /* [CP] Check Pods Manifest.lock */,
 				F95D612F2657D22F00E7D582 /* Sources */,
 				F95D61302657D22F00E7D582 /* Frameworks */,
 				F95D61312657D22F00E7D582 /* Resources */,
-				D7769715143DCD32D4FD9819 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,23 +362,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		89235F2CAAA115C37BFC9112 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (macOS)/Pods-NavigationBarColor (macOS)-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AA487A5D4439F0B1471282B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,23 +401,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7769715143DCD32D4FD9819 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests macOS/Pods-Tests macOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DD322E6C16B3A7E8EB8D0483 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,28 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F41769962CBCDA0766974D5D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NavigationBarColor (macOS)-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE2DB6498FC719AAA83BE35F /* [CP] Check Pods Manifest.lock */ = {
@@ -510,28 +434,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Tests iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE3472A5EA63616DF7D8E118 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tests macOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -753,7 +655,6 @@
 		};
 		F95D61462657D22F00E7D582 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AEFEB3163587B87155D0C5A /* Pods-NavigationBarColor (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -776,7 +677,6 @@
 		};
 		F95D61472657D22F00E7D582 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A181C560547ACDBD1CE10C8A /* Pods-NavigationBarColor (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -842,7 +742,6 @@
 		};
 		F95D614C2657D22F00E7D582 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 477D1D17F19019CF2717F107 /* Pods-Tests macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -863,7 +762,6 @@
 		};
 		F95D614D2657D22F00E7D582 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488160ABE88247697DFA2BEE /* Pods-Tests macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

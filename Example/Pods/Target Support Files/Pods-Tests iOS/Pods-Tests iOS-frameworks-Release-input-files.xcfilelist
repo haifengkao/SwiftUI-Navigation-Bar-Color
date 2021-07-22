@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh
-${BUILT_PRODUCTS_DIR}/NavigationBarColor-iOS/NavigationBarColor.framework
-${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework
-${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework
+${BUILT_PRODUCTS_DIR}/NavigationBarColor/NavigationBarColor.framework
+${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick/Quick.framework
