@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   # we need ios 11.0 to fix xcodebuild error
   # https://blog.csdn.net/qq_27785797/article/details/109058663
   s.ios.deployment_target = '14.0'
-  s.osx.deployment_target = '11.0'
+  # s.osx.deployment_target = '11.0'
 
   s.swift_version = '5'
 
