@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Change SwiftUI Navigation Bar Color for different View. You can use blur effect for navigation bar as well.
                        DESC
 
-  s.homepage         = 'https://github.com/haifengkao/NavigationBarColor'
+  s.homepage         = 'https://github.com/haifengkao/SwiftUI-Navigation-Bar-Color'
   s.screenshots     = 'https://github.com/haifengkao/SwiftUI-Navigation-Bar-Color/raw/main/screens/screen1.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hai Feng Kao' => 'haifeng@cocoaspice.in' }
