@@ -10,7 +10,7 @@ Change SwiftUI NavigationBar background color per screen.
 ## Usage
 
 For `NavigationBarColor` to work, you have to set the NavigationBar's background to be transparent.
-If you want to change the tint color, you have to set the color here as well.
+If you want to change the navigation bar's text color, you have to set it here as well.
 ```
 import NavigationBarColor
 ...
