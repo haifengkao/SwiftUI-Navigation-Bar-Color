@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double NavigationBarColorVersionNumber;
-FOUNDATION_EXPORT const unsigned char NavigationBarColorVersionString[];
+FOUNDATION_EXPORT double SwiftUINavigationBarColorVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftUINavigationBarColorVersionString[];
 

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint NavigationBarColor.podspec' to ensure this is a
+# Be sure to run `pod lib lint SwiftUINavigationBarColor.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,19 +7,19 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NavigationBarColor'
+  s.name             = 'SwiftUINavigationBarColor'
   s.version          = '0.6.0'
   s.summary          = 'Change SwiftUI Navigation Bar Color for different View'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 Change SwiftUI Navigation Bar Color for different View. You can use blur effect for navigation bar as well.
-                       DESC
+  DESC
 
   s.homepage         = 'https://github.com/haifengkao/SwiftUI-Navigation-Bar-Color'
   s.screenshots     = 'https://github.com/haifengkao/SwiftUI-Navigation-Bar-Color/raw/main/screens/screen1.gif'
@@ -33,10 +33,10 @@ Change SwiftUI Navigation Bar Color for different View. You can use blur effect 
 
   s.swift_version = '5'
 
-  s.source_files = 'NavigationBarColor/Classes/**/*'
+  s.source_files = 'SwiftUINavigationBarColor/Classes/**/*'
 
   # s.resource_bundles = {
-  #   'NavigationBarColor' => ['NavigationBarColor/Assets/*.png']
+  #   'SwiftUINavigationBarColor' => ['SwiftUINavigationBarColor/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

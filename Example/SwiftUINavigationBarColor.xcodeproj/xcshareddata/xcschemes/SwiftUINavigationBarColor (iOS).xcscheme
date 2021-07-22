@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F95D61172657D22F00E7D582"
-               BuildableName = "NavigationBarColorExample.app"
-               BlueprintName = "NavigationBarColor (iOS)"
-               ReferencedContainer = "container:NavigationBarColor.xcodeproj">
+               BuildableName = "SwiftUINavigationBarColorExample.app"
+               BlueprintName = "SwiftUINavigationBarColor (iOS)"
+               ReferencedContainer = "container:SwiftUINavigationBarColor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "F95D61272657D22F00E7D582"
                BuildableName = "Tests iOS.xctest"
                BlueprintName = "Tests iOS"
-               ReferencedContainer = "container:NavigationBarColor.xcodeproj">
+               ReferencedContainer = "container:SwiftUINavigationBarColor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F95D61172657D22F00E7D582"
-            BuildableName = "NavigationBarColorExample.app"
-            BlueprintName = "NavigationBarColor (iOS)"
-            ReferencedContainer = "container:NavigationBarColor.xcodeproj">
+            BuildableName = "SwiftUINavigationBarColorExample.app"
+            BlueprintName = "SwiftUINavigationBarColor (iOS)"
+            ReferencedContainer = "container:SwiftUINavigationBarColor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F95D61172657D22F00E7D582"
-            BuildableName = "NavigationBarColorExample.app"
-            BlueprintName = "NavigationBarColor (iOS)"
-            ReferencedContainer = "container:NavigationBarColor.xcodeproj">
+            BuildableName = "SwiftUINavigationBarColorExample.app"
+            BlueprintName = "SwiftUINavigationBarColor (iOS)"
+            ReferencedContainer = "container:SwiftUINavigationBarColor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

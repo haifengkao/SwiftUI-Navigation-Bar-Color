@@ -1,12 +1,12 @@
 PODS:
-  - NavigationBarColor (0.6.0)
   - Nimble (9.2.0)
   - Quick (4.0.0)
+  - SwiftUINavigationBarColor (0.6.0)
 
 DEPENDENCIES:
-  - NavigationBarColor (from `../`)
   - Nimble
   - Quick
+  - SwiftUINavigationBarColor (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -14,14 +14,14 @@ SPEC REPOS:
     - Quick
 
 EXTERNAL SOURCES:
-  NavigationBarColor:
+  SwiftUINavigationBarColor:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NavigationBarColor: 0f8500f77518db804045e94e9f2bd1ad01f2a7b7
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  SwiftUINavigationBarColor: d995cae3f24c9729b53ebc145f189b3005a3163a
 
-PODFILE CHECKSUM: f7fb0f3cd490dbc7acacdeae3e265aaf92e7471d
+PODFILE CHECKSUM: 9e544e95aea5ff9ba3a2753b5bd76fa0a50d4594
 
 COCOAPODS: 1.10.1

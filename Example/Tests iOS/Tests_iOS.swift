@@ -1,7 +1,7 @@
 // https://github.com/Quick/Quick
 
 import Foundation
-import NavigationBarColor
+import SwiftUINavigationBarColor
 import Nimble
 import Quick
 

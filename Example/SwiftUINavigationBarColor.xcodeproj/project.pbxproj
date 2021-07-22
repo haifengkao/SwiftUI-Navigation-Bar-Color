@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0718A2BAF6925DB5C1E1E4FA /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */; };
-		33AADBB1EAAB38FDC1DCFCE5 /* Pods_NavigationBarColor__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */; };
-		F9264F9726A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
-		F9264F9826A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */; };
-		F9264F9926A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */; };
-		F9264F9A26A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */; };
+		18E7C11F1E58184BB110AAEE /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10791D3D1E85992377B6AE2F /* Pods_Tests_iOS.framework */; };
+		52BB95FC49763C12C0AFBF0F /* Pods_SwiftUINavigationBarColor__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934C01CC5418F46ED4E2FFBF /* Pods_SwiftUINavigationBarColor__iOS_.framework */; };
+		F9264F9E26A992B000D1FD47 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9B26A992B000D1FD47 /* NavigationBarColorApp.swift */; };
+		F9264F9F26A992B000D1FD47 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9B26A992B000D1FD47 /* NavigationBarColorApp.swift */; };
+		F9264FA026A992B000D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9C26A992B000D1FD47 /* VisualEffectBlur-Mac.swift */; };
+		F9264FA126A992B000D1FD47 /* VisualEffectBlur-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9C26A992B000D1FD47 /* VisualEffectBlur-Mac.swift */; };
+		F9264FA226A992B000D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9D26A992B000D1FD47 /* VisualEffectBlur-iOS.swift */; };
+		F9264FA326A992B000D1FD47 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9264F9D26A992B000D1FD47 /* VisualEffectBlur-iOS.swift */; };
 		F95D612D2657D22F00E7D582 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D612C2657D22F00E7D582 /* Tests_iOS.swift */; };
 		F95D61382657D22F00E7D582 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61372657D22F00E7D582 /* Tests_macOS.swift */; };
-		F95D613A2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */; };
-		F95D613B2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */; };
 		F95D613C2657D22F00E7D582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61122657D22D00E7D582 /* ContentView.swift */; };
 		F95D613D2657D22F00E7D582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D61122657D22D00E7D582 /* ContentView.swift */; };
 		F95D613E2657D22F00E7D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95D61132657D22F00E7D582 /* Assets.xcassets */; };
@@ -29,34 +29,35 @@
 			containerPortal = F95D610C2657D22D00E7D582 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F95D61172657D22F00E7D582;
-			remoteInfo = "NavigationBarColor (iOS)";
+			remoteInfo = "SwiftUINavigationBarColor (iOS)";
 		};
 		F95D61342657D22F00E7D582 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F95D610C2657D22D00E7D582 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F95D611F2657D22F00E7D582;
-			remoteInfo = "NavigationBarColor (macOS)";
+			remoteInfo = "SwiftUINavigationBarColor (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarColor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).release.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
-		78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
-		7CF02B3D19C4961CE2AE61AE /* NavigationBarColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationBarColor.podspec; path = ../NavigationBarColor.podspec; sourceTree = "<group>"; };
-		B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarColor (iOS).debug.xcconfig"; path = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
-		B9C5674E205CCBF67E667771 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C9EE8A500A798C84E64FB430 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-Mac.swift"; sourceTree = "<group>"; };
-		F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-iOS.swift"; sourceTree = "<group>"; };
-		F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorApp.swift; sourceTree = "<group>"; };
+		10791D3D1E85992377B6AE2F /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5066A87EBDC33EBBE5F34 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		30D8C644BA7A9A7A0296A972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4806498C5D7629E668D459E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		934C01CC5418F46ED4E2FFBF /* Pods_SwiftUINavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUINavigationBarColor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B62825EF94A1AFF4019EEF /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A27830E99A4F2298B069EA14 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUINavigationBarColor (iOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		C02C927E0539FD4293C99A5B /* SwiftUINavigationBarColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftUINavigationBarColor.podspec; path = ../SwiftUINavigationBarColor.podspec; sourceTree = "<group>"; };
+		F398A5B76ADE5685B36F1845 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F9264F9B26A992B000D1FD47 /* NavigationBarColorApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorApp.swift; sourceTree = "<group>"; };
+		F9264F9C26A992B000D1FD47 /* VisualEffectBlur-Mac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-Mac.swift"; sourceTree = "<group>"; };
+		F9264F9D26A992B000D1FD47 /* VisualEffectBlur-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-iOS.swift"; sourceTree = "<group>"; };
 		F95D61122657D22D00E7D582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F95D61132657D22F00E7D582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D61182657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D611B2657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95D61202657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigationBarColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D61222657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95D61232657D22F00E7D582 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F95D61282657D22F00E7D582 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +66,6 @@
 		F95D61332657D22F00E7D582 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D61372657D22F00E7D582 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F95D61392657D22F00E7D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AADBB1EAAB38FDC1DCFCE5 /* Pods_NavigationBarColor__iOS_.framework in Frameworks */,
+				52BB95FC49763C12C0AFBF0F /* Pods_SwiftUINavigationBarColor__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0718A2BAF6925DB5C1E1E4FA /* Pods_Tests_iOS.framework in Frameworks */,
+				18E7C11F1E58184BB110AAEE /* Pods_Tests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,22 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31983783282B385CAABAC1C0 /* Pods */ = {
+		27A0B4A2D16E611B1DA5ED58 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */,
-				76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */,
-				1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */,
-				78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */,
+				F398A5B76ADE5685B36F1845 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */,
+				A27830E99A4F2298B069EA14 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */,
+				2AD5066A87EBDC33EBBE5F34 /* Pods-Tests iOS.debug.xcconfig */,
+				98B62825EF94A1AFF4019EEF /* Pods-Tests iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C8C1D6B4AFE6CE1F93E3FEE7 /* Frameworks */ = {
+		2D2BCE984A80A3F26BAB9ADB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D117210975CA5EA21A2F8ED /* Pods_NavigationBarColor__iOS_.framework */,
-				FD9C7944232BA736CE8B46B0 /* Pods_Tests_iOS.framework */,
+				934C01CC5418F46ED4E2FFBF /* Pods_SwiftUINavigationBarColor__iOS_.framework */,
+				10791D3D1E85992377B6AE2F /* Pods_Tests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,17 +132,17 @@
 				F95D612B2657D22F00E7D582 /* Tests iOS */,
 				F95D61362657D22F00E7D582 /* Tests macOS */,
 				F95D61192657D22F00E7D582 /* Products */,
-				31983783282B385CAABAC1C0 /* Pods */,
-				C8C1D6B4AFE6CE1F93E3FEE7 /* Frameworks */,
+				27A0B4A2D16E611B1DA5ED58 /* Pods */,
+				2D2BCE984A80A3F26BAB9ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F95D61102657D22D00E7D582 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F9264F9626A97F0500D1FD47 /* VisualEffectBlur-iOS.swift */,
-				F9264F9526A97F0500D1FD47 /* VisualEffectBlur-Mac.swift */,
-				F95D61112657D22D00E7D582 /* NavigationBarColorApp.swift */,
+				F9264F9B26A992B000D1FD47 /* NavigationBarColorApp.swift */,
+				F9264F9D26A992B000D1FD47 /* VisualEffectBlur-iOS.swift */,
+				F9264F9C26A992B000D1FD47 /* VisualEffectBlur-Mac.swift */,
 				F95D61122657D22D00E7D582 /* ContentView.swift */,
 				F95D61132657D22F00E7D582 /* Assets.xcassets */,
 			);
@@ -152,8 +152,8 @@
 		F95D61192657D22F00E7D582 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */,
-				F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */,
+				F95D61182657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */,
+				F95D61202657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */,
 				F95D61282657D22F00E7D582 /* Tests iOS.xctest */,
 				F95D61332657D22F00E7D582 /* Tests macOS.xctest */,
 			);
@@ -198,9 +198,9 @@
 		F95D615A26581C5800E7D582 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				7CF02B3D19C4961CE2AE61AE /* NavigationBarColor.podspec */,
-				B9C5674E205CCBF67E667771 /* README.md */,
-				C9EE8A500A798C84E64FB430 /* LICENSE */,
+				C02C927E0539FD4293C99A5B /* SwiftUINavigationBarColor.podspec */,
+				4806498C5D7629E668D459E6 /* README.md */,
+				30D8C644BA7A9A7A0296A972 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -208,28 +208,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */ = {
+		F95D61172657D22F00E7D582 /* SwiftUINavigationBarColor (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (iOS)" */;
+			buildConfigurationList = F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor (iOS)" */;
 			buildPhases = (
-				B176FAEA42E285C5F88FF92F /* [CP] Check Pods Manifest.lock */,
+				6761AC126D5EC44ABBD14387 /* [CP] Check Pods Manifest.lock */,
 				F95D61142657D22F00E7D582 /* Sources */,
 				F95D61152657D22F00E7D582 /* Frameworks */,
 				F95D61162657D22F00E7D582 /* Resources */,
-				AA487A5D4439F0B1471282B8 /* [CP] Embed Pods Frameworks */,
+				FB4DBC470E793C4DC51427BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NavigationBarColor (iOS)";
-			productName = "NavigationBarColor (iOS)";
-			productReference = F95D61182657D22F00E7D582 /* NavigationBarColorExample.app */;
+			name = "SwiftUINavigationBarColor (iOS)";
+			productName = "SwiftUINavigationBarColor (iOS)";
+			productReference = F95D61182657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */ = {
+		F95D611F2657D22F00E7D582 /* SwiftUINavigationBarColor (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (macOS)" */;
+			buildConfigurationList = F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor (macOS)" */;
 			buildPhases = (
 				F95D611C2657D22F00E7D582 /* Sources */,
 				F95D611D2657D22F00E7D582 /* Frameworks */,
@@ -239,20 +239,20 @@
 			);
 			dependencies = (
 			);
-			name = "NavigationBarColor (macOS)";
-			productName = "NavigationBarColor (macOS)";
-			productReference = F95D61202657D22F00E7D582 /* NavigationBarColorExample.app */;
+			name = "SwiftUINavigationBarColor (macOS)";
+			productName = "SwiftUINavigationBarColor (macOS)";
+			productReference = F95D61202657D22F00E7D582 /* SwiftUINavigationBarColorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F95D61272657D22F00E7D582 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95D61482657D22F00E7D582 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				FE2DB6498FC719AAA83BE35F /* [CP] Check Pods Manifest.lock */,
+				F40BD107098548A038C037DD /* [CP] Check Pods Manifest.lock */,
 				F95D61242657D22F00E7D582 /* Sources */,
 				F95D61252657D22F00E7D582 /* Frameworks */,
 				F95D61262657D22F00E7D582 /* Resources */,
-				DD322E6C16B3A7E8EB8D0483 /* [CP] Embed Pods Frameworks */,
+				1BE1439F0DE676454805BA94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "NavigationBarColor" */;
+			buildConfigurationList = F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "SwiftUINavigationBarColor" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */,
-				F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */,
+				F95D61172657D22F00E7D582 /* SwiftUINavigationBarColor (iOS) */,
+				F95D611F2657D22F00E7D582 /* SwiftUINavigationBarColor (macOS) */,
 				F95D61272657D22F00E7D582 /* Tests iOS */,
 				F95D61322657D22F00E7D582 /* Tests macOS */,
 			);
@@ -362,46 +362,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA487A5D4439F0B1471282B8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B176FAEA42E285C5F88FF92F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NavigationBarColor (iOS)-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD322E6C16B3A7E8EB8D0483 /* [CP] Embed Pods Frameworks */ = {
+		1BE1439F0DE676454805BA94 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,7 +379,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE2DB6498FC719AAA83BE35F /* [CP] Check Pods Manifest.lock */ = {
+		6761AC126D5EC44ABBD14387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUINavigationBarColor (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40BD107098548A038C037DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,6 +423,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FB4DBC470E793C4DC51427BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -448,9 +448,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95D613C2657D22F00E7D582 /* ContentView.swift in Sources */,
-				F9264F9726A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
-				F95D613A2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */,
-				F9264F9926A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
+				F9264FA026A992B000D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
+				F9264F9E26A992B000D1FD47 /* NavigationBarColorApp.swift in Sources */,
+				F9264FA226A992B000D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +459,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95D613D2657D22F00E7D582 /* ContentView.swift in Sources */,
-				F9264F9826A97F0500D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
-				F95D613B2657D22F00E7D582 /* NavigationBarColorApp.swift in Sources */,
-				F9264F9A26A97F0500D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
+				F9264FA126A992B000D1FD47 /* VisualEffectBlur-Mac.swift in Sources */,
+				F9264F9F26A992B000D1FD47 /* NavigationBarColorApp.swift in Sources */,
+				F9264FA326A992B000D1FD47 /* VisualEffectBlur-iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,12 +486,12 @@
 /* Begin PBXTargetDependency section */
 		F95D612A2657D22F00E7D582 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95D61172657D22F00E7D582 /* NavigationBarColor (iOS) */;
+			target = F95D61172657D22F00E7D582 /* SwiftUINavigationBarColor (iOS) */;
 			targetProxy = F95D61292657D22F00E7D582 /* PBXContainerItemProxy */;
 		};
 		F95D61352657D22F00E7D582 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95D611F2657D22F00E7D582 /* NavigationBarColor (macOS) */;
+			target = F95D611F2657D22F00E7D582 /* SwiftUINavigationBarColor (macOS) */;
 			targetProxy = F95D61342657D22F00E7D582 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -610,7 +610,7 @@
 		};
 		F95D61432657D22F00E7D582 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5771253E84C3F4400F105A5 /* Pods-NavigationBarColor (iOS).debug.xcconfig */;
+			baseConfigurationReference = F398A5B76ADE5685B36F1845 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -622,8 +622,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
-				PRODUCT_NAME = NavigationBarColorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example";
+				PRODUCT_NAME = SwiftUINavigationBarColorExample;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -632,7 +632,7 @@
 		};
 		F95D61442657D22F00E7D582 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76C7296D09060CD452C7531D /* Pods-NavigationBarColor (iOS).release.xcconfig */;
+			baseConfigurationReference = A27830E99A4F2298B069EA14 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -644,8 +644,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
-				PRODUCT_NAME = NavigationBarColorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example";
+				PRODUCT_NAME = SwiftUINavigationBarColorExample;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -668,8 +668,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
-				PRODUCT_NAME = NavigationBarColorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example";
+				PRODUCT_NAME = SwiftUINavigationBarColorExample;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -690,8 +690,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example";
-				PRODUCT_NAME = NavigationBarColorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example";
+				PRODUCT_NAME = SwiftUINavigationBarColorExample;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -699,7 +699,7 @@
 		};
 		F95D61492657D22F00E7D582 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFD2DABC86E420FAD0C1489 /* Pods-Tests iOS.debug.xcconfig */;
+			baseConfigurationReference = 2AD5066A87EBDC33EBBE5F34 /* Pods-Tests iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
@@ -709,18 +709,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NavigationBarColor (iOS)";
+				TEST_TARGET_NAME = "SwiftUINavigationBarColor (iOS)";
 			};
 			name = Debug;
 		};
 		F95D614A2657D22F00E7D582 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78892FE47784C3536C47E4C6 /* Pods-Tests iOS.release.xcconfig */;
+			baseConfigurationReference = 98B62825EF94A1AFF4019EEF /* Pods-Tests iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tests iOS/Info.plist";
@@ -730,12 +730,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NavigationBarColor (iOS)";
+				TEST_TARGET_NAME = "SwiftUINavigationBarColor (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -752,11 +752,11 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "NavigationBarColor (macOS)";
+				TEST_TARGET_NAME = "SwiftUINavigationBarColor (macOS)";
 			};
 			name = Debug;
 		};
@@ -772,18 +772,18 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NavigationBarColor-Example.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.SwiftUINavigationBarColor-Example.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "NavigationBarColor (macOS)";
+				TEST_TARGET_NAME = "SwiftUINavigationBarColor (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "NavigationBarColor" */ = {
+		F95D610F2657D22D00E7D582 /* Build configuration list for PBXProject "SwiftUINavigationBarColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95D61402657D22F00E7D582 /* Debug */,
@@ -792,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (iOS)" */ = {
+		F95D61422657D22F00E7D582 /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95D61432657D22F00E7D582 /* Debug */,
@@ -801,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "NavigationBarColor (macOS)" */ = {
+		F95D61452657D22F00E7D582 /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95D61462657D22F00E7D582 /* Debug */,

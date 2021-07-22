@@ -1,6 +1,0 @@
-framework module NavigationBarColor {
-  umbrella header "NavigationBarColor-umbrella.h"
-
-  export *
-  module * { export * }
-}

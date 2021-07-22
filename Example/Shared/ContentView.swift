@@ -5,7 +5,7 @@
 //  Created by Hai Feng Kao on 07/22/2021.
 //
 
-import NavigationBarColor
+import SwiftUINavigationBarColor
 import SwiftUI
 
 struct ContentView: View {

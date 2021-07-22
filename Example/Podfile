@@ -7,10 +7,10 @@ use_frameworks!
 
 
 def allPods
-  pod 'NavigationBarColor', :path => '../'
+  pod 'SwiftUINavigationBarColor', :path => '../'
 end
 
-target 'NavigationBarColor (iOS)' do
+target 'SwiftUINavigationBarColor (iOS)' do
   platform :ios, '14.0'
   allPods
 end
@@ -22,7 +22,7 @@ target 'Tests iOS' do
     pod 'Nimble'
 end
 
-# target 'NavigationBarColor (macOS)' do
+# target 'SwiftUINavigationBarColor (macOS)' do
 #   platform :osx, '11.0'
 #   allPods
 # end

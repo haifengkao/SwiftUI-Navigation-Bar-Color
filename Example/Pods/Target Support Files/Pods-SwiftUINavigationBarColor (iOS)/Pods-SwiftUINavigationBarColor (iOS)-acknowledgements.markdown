@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## NavigationBarColor
+## SwiftUINavigationBarColor
 
 Copyright (c) 2021 Hai Feng Kao <haifeng@cocoaspice.in>
 

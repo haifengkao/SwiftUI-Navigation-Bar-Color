@@ -1,0 +1,6 @@
+framework module Pods_SwiftUINavigationBarColor__iOS_ {
+  umbrella header "Pods-SwiftUINavigationBarColor (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

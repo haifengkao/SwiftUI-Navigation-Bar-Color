@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,14 @@
 		03D2B9651FD82FC0D5C97AD6F0E561D4 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01872A5724C80F9F66F85BE505EF41E /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		096A350DACDDDFF8805FDAEBE86EC2F6 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CA7814D47356EA90B9ECB4FDB3F859 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		0A363AD0A93A6F9E8961F52B10580718 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4097A6637537D84D28A10721A2E7EC6 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		0B222AB65E416BA1C485CFEC6CBBB783 /* Pods-NavigationBarColor (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A3BE5418D3388D36BDF87449FC154 /* Pods-NavigationBarColor (iOS)-dummy.m */; };
 		0D76A5CAF71781C4E1CC5E0D70D3426D /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C572C7D93AF0E9B50A517675CD4D665 /* QuickSpec.m */; };
 		0DFBCBE5C1E75DC9CD38757ACF33E0A7 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25751F36800946C1A1A22406B3596FE /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		0E48962ACAEDD1289D7DAE793F3A731F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3558661CEF3BE87C498E32AEC3EB0 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1126E10683633A8503EE54632EE12803 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB539966A7AFD5CB6811DAA9B761F1B /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		113CB0649F1C41E6358C27C4DC19D0A7 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C42CFB5518B1F634F1B99EBB383B6B0 /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		15DB927C7009266E077993F38882D40E /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB97E529E69C80140CF90C16575922D /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1750464E992135E6ED19C046EBB67EB2 /* Pods-SwiftUINavigationBarColor (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7772BA9F812EC900085F3ACA851483 /* Pods-SwiftUINavigationBarColor (iOS)-dummy.m */; };
 		1AF9A29318570C093E7F92579080C6C4 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD3495984E50717EE5951C04EAFB788 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D032B47E930AB9302B8C1C602EFE19D /* Pods-Tests iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E95ADBA240548D06BD850EF068D4509D /* Pods-Tests iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DA94F92235E0C3A0FD7768DD848068C /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3107E43F634AF3B221072AD06EDC701 /* Closures.swift */; };
 		1E3B805AA2F844C715C9F3135A7D7BD5 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB293BEEC38AC66C26BFE450BF27D14F /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1F5967DC89CF19ABF6F288617010D900 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD90DC04A8EE437DF70BED5C4A8D946 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -27,6 +26,7 @@
 		2145470ED629F29ABCCBF304F24DA354 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D1D1C6474F27A8FCC8D6856C47704 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2432100DBFB954DDC3AC2CEA3E170B9D /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B58265E7E51E07AFB8D2BD2A392369 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2551CBC318614FA2BF169B2844F46724 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */; };
+		26FFA2E1AEC8E8DBF1ECB5AF03E29C96 /* Pods-SwiftUINavigationBarColor (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902F14D497C1FBB77E47346793866B9B /* Pods-SwiftUINavigationBarColor (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27C96AB21C9D153E5EEE8CD305935088 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E5207C4D8365FB324A7064CEAED8E497 /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2A7FA62A2799B4F51D2B3B4463763BE5 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D790CFC0DD27CF5E3726D13716B8457 /* String+C99ExtendedIdentifier.swift */; };
 		2AC400B28F334D89B97F36620EF4F362 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FC1B156A23E9FE1FB704254E44A12 /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -38,14 +38,13 @@
 		3F31BA28AEC03B51AF90221CC4AD864B /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A8B866BF1B5741F3E8FDA8E728708F /* World+DSL.swift */; };
 		416FEB65425C4D4A5BD9A56DBB994F72 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E6D0F0B64E0881BB387BFDBBAEDE64 /* QuickConfiguration.m */; };
 		44CC283E83FE6CCCAAB2F327740770E7 /* QuickObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 917DABFABA971087CC881C67BBCB896A /* QuickObjCRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		44E5EFE5CF62522FE53D8A60DE3FEA16 /* NavigationBarColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A6DA5996B27CB080705951E5EBD8 /* NavigationBarColor-dummy.m */; };
 		4507C3FA3B3C2A7A13D9C503CFD9CC19 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = B778739B132B4FEC875F9615ED37CAEA /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45718892681E27BFB3CA4F77FB637189 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9BFBE17C3F91CEB7AEF368D4BF50 /* Behavior.swift */; };
 		4BB64DB9E1A1717C926E9A2FA7D5DA97 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5808B9A93D2F619B1FB8E6A7D46F1C /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		501A30CB9F16F63F7FBABA667043DCCC /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E79BFE04E48F6AC4C63F2B0CAF4E210 /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		520E7371FE7DB9BF712762793CC0BB4B /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB9311ED98345A6282A28A6CFAD83 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5A7CA27F8A4CB0DCBDBFB48B301E26D6 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366B612A2ACEBDB6626EBF65E107253 /* URL+FileName.swift */; };
-		5BCE6EED1E0E77ECACA566078E1EEEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		5C8646C63C7FEC2387A2E457416A9188 /* SwiftUINavigationBarColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3058CB2EB67CCED42539990F6DB457D6 /* SwiftUINavigationBarColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD0B3311BB289641928D6E734F4ED55 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A80B6F8B82934D9A77E355D2A690124 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5FF3D0D8B874D76C903952F8E318E006 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9973833824E7ED01540C73DCB2C1247 /* Quick-dummy.m */; };
 		606F220B87194FFF5D050FC4942120C5 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73141CA135219B195CA9C9BBE8BC38E0 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -54,8 +53,6 @@
 		64FF7B082BBD75946F6B6342F202F6CC /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23387148BE56CC3EB877BEE9F509DA9 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6651438A66A1DEB7B86EC4814EA9DA16 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700BD6275F82CB443901CE97C7FBFE2 /* Callsite.swift */; };
 		665B3B718611BE55F338D2CF4602AC74 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A8FC83ADFAB68A939D061B9DA7B2C3 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		672CD623EA018C5C22A3EB358E9F2535 /* NavigationBarColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E792AF662F227826557D5FA614E636C /* NavigationBarColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		687335EAE2FE23CF71725D05D670E6F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		69FB2A0E963C18660AA3B8CFE72FE3C4 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6971FF4FC2D354A79275D7A0E176A2EC /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6C53B0695A60489C1FFCBE9FABBFA47A /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 39008AE1E1CAEB0064DAD5FE36764295 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CE2E10D6237472E319B05C3F16A2237 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2DD27CB90704924D6D50162205BD97 /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -81,7 +78,8 @@
 		9D56BAD608CA598B071D591E0112F6BE /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BE9A694522F7F4026799121CBA1C7 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		9F2643593B001BED9C62BEF8FB0EBF9D /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0803F35E782099A482A475DC094AA98B /* QuickTestSuite.swift */; };
 		A1D30A36109E6A90E1791B51BAE55A72 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425C80AFE5874C82C321C25C8FD8E4E /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		A4119C4D8276F53EDE6251D9D6F7D83B /* Pods-NavigationBarColor (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E599FEFC313EFAED44E836C4C746923 /* Pods-NavigationBarColor (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BE8C0DEE8ACE748F02B76F655F3F27 /* NavigationBarTransparentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D44BAB7EFD6A7DA32D832D4E7B45FD /* NavigationBarTransparentStyle.swift */; };
+		A47A61A5E1BD9D52469B2D79FAB6F4DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		A4E1AC7A059F8774AECC57EB095245DA /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3DC3139A1280CF034113B965D1A718 /* CwlBadInstructionException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A5EB253AF98ECD3895797CF40302FA39 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EA20C87137C7C7A9356234D9535104D4 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9AF3F7AB8269225790D01ABD9F559D7 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545145A1C5A4394570ECEC1644AC94 /* DSL.swift */; };
@@ -90,27 +88,29 @@
 		AEB5246A054AE75A5BFA7D8C770E9E8E /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7283F4C347135472840AFDA74C4E5A /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B212BEE5869453F67DE16621A5388954 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817083983497DB3ED6001E3E97533CB /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B2D03C30992D861A3C55D5301D718518 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3862A4029F0AE7BD5D04E22605C911F /* ExampleHooks.swift */; };
-		B501A6DAEB86EADD586E528768A04E02 /* NavigationBarColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12FF82AE14191FB872E3E655A5271B /* NavigationBarColorModifier.swift */; };
+		B2D6D81F00D680B96518805C41F0584C /* NavigationBarColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AB187117AEE98EAB4A256EE2301DD /* NavigationBarColorModifier.swift */; };
+		B2F10949B173299477FFE6C2CCDA0291 /* Pods-Tests iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEFB313CCA5182D31DB1F0EB67519B3 /* Pods-Tests iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B844C53365327CB75CC1645AE73CDCED /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533A88B2DE8230A61D3FE3F4CD5BC98 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C0D3EDC5F8D2546D5B5CB583230606B7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D232917B7F9161AD32800BD7188F6 /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C12A5EDA29052D6AB6B5C08EB827147F /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2EF8A720D0EAA49000115560DF7BBC /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2D906D76A9597A6C5B496D316893560 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECCD0DFA1B5AC88BE310179E43A5722 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C759FEB2A9EF6B829DF536816DF4CABB /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014F88FBB418E7E9B24F6C3E73E89DA /* ExampleMetadata.swift */; };
 		C7B3848543A19E420CA7638FBF6775CB /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B085943B46F49A20A9E6E3DE9F200FE /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8EAD199E07F8647988F430D324CEFFE /* Pods-Tests iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2260C794799F55A91583EE1607C5B78 /* Pods-Tests iOS-dummy.m */; };
 		CA791EB47A2D4F838A353E79B693A4B8 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B63A49E44A8499A1A97B90F2A37A90C /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CC9476F9485F3506AE3374888A29D0AA /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0AADE582B5BD22FA91D3DAD8844B92 /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		CCC979DCC14B3ABA916972735BCD5B26 /* SwiftUINavigationBarColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C245109CDE6C2FFCA188D7AE8326C1 /* SwiftUINavigationBarColor-dummy.m */; };
 		CFB78DAD8A511C9123F8559BA702B5E4 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42246731B3D9A2B8790893EBBD465FFF /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		D4EF70157EB0C28AF63A5AE444053129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		D562A34837C271ABE23892804EABFC83 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C36E789BFF17B70EC945692C82D859 /* QuickSpecBase.m */; };
 		D5909A235107CDC9E1B0C12CB08B6505 /* DispatchTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB1858F6652DC026D80938BD29DD97 /* DispatchTimeInterval.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D6276432FE863185A68BC069E47F1BD9 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924BBEE0618BF7EC93C2C9016D0CCCA /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D989AA28FF39931A8E9F6FFD665FD0B7 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BC691C67B0A64F7510D5C6298F4A80 /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4F2A50A04E673714C6A8AA32D94D53 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F10523AFF38648C15FCA6AA129C23 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DBB0B80C28F80394644E12D3C4EE2CB3 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69990709ED1315032AA1A075A30E4A /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		DF4742B40EFECC9B146E953BE190EA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		E0E2E724288F13C852B9DB0C323ABBE4 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D419D9857BEDF4AABA8218936B3677E /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E1F708C047C1B3C52B13F4D322D15F69 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE7135B910B114C8F5096BEF6D8C97 /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E282A90FA01DE2C5003A3E17907E17A9 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B078FDEFF43D01A46CEC09B78FA029 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C904C49C35CFFC14C0E668E0CC2A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		E41DA6DEFB27EE0BCF12DC39EF0E1E1A /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E6CD5C8804BBD715C9D08D4BEC854 /* BeNil.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E5FA00B2EC7B07285D2AE732D338BBDC /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09731733D98B8FD7224447F776E75441 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E80FC1D79D4A8DCA72F3C9A023D7BBD8 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30B4EFCE7868E0DBE8E364AD275301 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -121,39 +121,39 @@
 		F02B60DD96EB7DE9CA25530D09966391 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54786640730EAADE6139B51A243CA4B7 /* ExampleGroup.swift */; };
 		F17CCA8ABDDEE4BA268DC3D82A9C59BC /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0135D5FDA5A4415EADADB336B9246 /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F1EDFF4C8CD256D625C5B46E0768AEFB /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8E066CB31D5BC83F54CCFE6CFD9B8 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		F3176D1F64F483619A9D22BC65F0FFBB /* Pods-Tests iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3EEEAF7F4F120771B42C3CB6C8F4 /* Pods-Tests iOS-dummy.m */; };
 		F74B14337C89364EAABE436EEF56705D /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A5A20097CA4DD27ECE4579DDE32BD /* HooksPhase.swift */; };
 		F7FF348727315821588F9F0C635BEE2C /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209032F9B9026846B05C17994D723B3 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F92273C61B48AB0E00CC817DF18A4C47 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898400AEF7989EB1C4B445B05061557 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F9D4AB9515DB3E931E4AF493DE11895E /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD192718D9180DF715E2B12BD4F99324 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		F9EA7011BBF0B919294D88C6F2BADB40 /* NavigationBarTransparentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C7A04C1CABCCD178307A90A84D5785 /* NavigationBarTransparentStyle.swift */; };
 		FC740FFCEA8E90C8F3DB11189FD9FA9D /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED05FA78925BC3E8E8D05CC3D3321291 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCC23B8552E01DB23CA349EB8921842C /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9304D037786B05B215A100D854D943 /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		FD1E01D8C3414F0495353334492BF4A9 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398A9D17862A4A4F45ADB5FA7444E92 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DC74817ACF8D8A9BD4ACBBC23754446 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 664DC93157607FE30865BF970C210420;
-			remoteInfo = NavigationBarColor;
-		};
-		12D7FD483FE7FC5A5F75344F4224CE63 /* PBXContainerItemProxy */ = {
+		01761433F78409B2B0DE440737A3F641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
 			remoteInfo = Quick;
 		};
-		1B4B2150D8D479C132C0131EF0F811B6 /* PBXContainerItemProxy */ = {
+		9832BD5F825E0359A0EA0B1E88042184 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 664DC93157607FE30865BF970C210420;
-			remoteInfo = NavigationBarColor;
+			remoteGlobalIDString = C28960FB654DF83A005E05C3CDF0E65E;
+			remoteInfo = SwiftUINavigationBarColor;
 		};
-		9BC47CA5E42B015C1F0A8E29DECE83F7 /* PBXContainerItemProxy */ = {
+		DD99CBC3656E9C28DCB971BEC83C6215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28960FB654DF83A005E05C3CDF0E65E;
+			remoteInfo = SwiftUINavigationBarColor;
+		};
+		FF5F152AF58F35B5DC41C0A15D820A55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -163,17 +163,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0187E19C3F78737FF9CFEA66464D7E8E /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		02FC9FA72BA2A262A7E9F6D1DB32D272 /* Nimble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.debug.xcconfig; sourceTree = "<group>"; };
 		030CD2D7B5E0A8B711B3F24711647E5D /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		0366B612A2ACEBDB6626EBF65E107253 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		043F5603A9D8364BDB67FBFA3F7BCE94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		062651C3F6E6E957970C0DA625AE1594 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		07B58265E7E51E07AFB8D2BD2A392369 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		07FE7135B910B114C8F5096BEF6D8C97 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		0803F35E782099A482A475DC094AA98B /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		086F10523AFF38648C15FCA6AA129C23 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		08ED134B7B0DA5B21CB8EC96CD2C6D3C /* Pods-Tests iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		09731733D98B8FD7224447F776E75441 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		09E3967D546765E7D3717EB44E43A199 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0A4711ACBC343B411A7ECD68CF331E4F /* SwiftUINavigationBarColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUINavigationBarColor.modulemap; sourceTree = "<group>"; };
 		0B0AADE582B5BD22FA91D3DAD8844B92 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD3495984E50717EE5951C04EAFB788 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -181,35 +182,31 @@
 		10C36E789BFF17B70EC945692C82D859 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickObjCRuntime/QuickSpecBase.m; sourceTree = "<group>"; };
 		11CD7AC874836F8DA7EC88B0872CDBAE /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
 		1209032F9B9026846B05C17994D723B3 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		125BFDA039C8753B62530AEC292F72E0 /* NavigationBarColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationBarColor.modulemap; sourceTree = "<group>"; };
-		144A3BE5418D3388D36BDF87449FC154 /* Pods-NavigationBarColor (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationBarColor (iOS)-dummy.m"; sourceTree = "<group>"; };
 		17550890BB023B26063ABDFE4B258145 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		19A3558661CEF3BE87C498E32AEC3EB0 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		1A80B6F8B82934D9A77E355D2A690124 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
 		1B085943B46F49A20A9E6E3DE9F200FE /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		24872E4FA15B8505286CCFCA11098520 /* Pods-Tests iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		25030C0A2B44B4AFE6D77A9BAAF84088 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
-		27677D68DC0D873E7E2FC29E1F9A49FB /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		28A8FC83ADFAB68A939D061B9DA7B2C3 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		2924BBEE0618BF7EC93C2C9016D0CCCA /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
-		2E599FEFC313EFAED44E836C4C746923 /* Pods-NavigationBarColor (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationBarColor (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		2A662BBC1FC049EAF73FB2DD36EA7BDF /* Pods-SwiftUINavigationBarColor (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUINavigationBarColor (iOS)-frameworks.sh"; sourceTree = "<group>"; };
+		2A8717DBFED60B3BAEDEE8E4FA48364A /* SwiftUINavigationBarColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUINavigationBarColor.debug.xcconfig; sourceTree = "<group>"; };
+		3058CB2EB67CCED42539990F6DB457D6 /* SwiftUINavigationBarColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUINavigationBarColor-umbrella.h"; sourceTree = "<group>"; };
 		32435C410D6166FD3FF1FF89804AE5BD /* Nimble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.release.xcconfig; sourceTree = "<group>"; };
 		39008AE1E1CAEB0064DAD5FE36764295 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		3C881CEC84ECB068B626CA0243C89F5F /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
+		3DEFB313CCA5182D31DB1F0EB67519B3 /* Pods-Tests iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests iOS-umbrella.h"; sourceTree = "<group>"; };
 		3F792826C2A1DCA549A626F8B6BB9048 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
-		40D0110058593E254F8401989BEAAFB2 /* Pods-Tests iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tests iOS.modulemap"; sourceTree = "<group>"; };
 		42246731B3D9A2B8790893EBBD465FFF /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		431CBAEE164D12511676DF2CA2E5F6E1 /* Equal+Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Equal+Tuple.swift"; path = "Sources/Nimble/Matchers/Equal+Tuple.swift"; sourceTree = "<group>"; };
+		44F483D1E293420764D37C547A855F86 /* Pods-SwiftUINavigationBarColor (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUINavigationBarColor (iOS)-Info.plist"; sourceTree = "<group>"; };
 		4533A88B2DE8230A61D3FE3F4CD5BC98 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
-		46C7A04C1CABCCD178307A90A84D5785 /* NavigationBarTransparentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarTransparentStyle.swift; path = NavigationBarColor/Classes/NavigationBarTransparentStyle.swift; sourceTree = "<group>"; };
+		467245C156D63C84FD72510649431E7C /* Pods-Tests iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		487FC1B156A23E9FE1FB704254E44A12 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		4A81330D968B34C59FC40E730C91DA50 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
-		4B327845C105CAE47CE1C456F7C1F3F4 /* Pods-Tests iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests iOS-frameworks.sh"; sourceTree = "<group>"; };
+		4BF6936F4544A736B787CFBEB516074D /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4C2D1D1C6474F27A8FCC8D6856C47704 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
-		4E792AF662F227826557D5FA614E636C /* NavigationBarColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationBarColor-umbrella.h"; sourceTree = "<group>"; };
-		4F110B85250D85B28DD5EB5D1AC06FC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		54786640730EAADE6139B51A243CA4B7 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
-		55DE8492F3793DBF836B72B8564AE9AC /* NavigationBarColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationBarColor.framework; path = NavigationBarColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5700BD6275F82CB443901CE97C7FBFE2 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		5898400AEF7989EB1C4B445B05061557 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		599A5A20097CA4DD27ECE4579DDE32BD /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
@@ -217,14 +214,14 @@
 		5E9D232917B7F9161AD32800BD7188F6 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FDF855D797FF314FA501247ABF1FEC7 /* QuickTestObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestObservation.swift; path = Sources/Quick/QuickTestObservation.swift; sourceTree = "<group>"; };
-		64DBAFA4D29A89448D73CA27A33E79A4 /* Pods-NavigationBarColor (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationBarColor (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6645CB0EA61CF61654A6456C637CC905 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
-		66D8A6DA5996B27CB080705951E5EBD8 /* NavigationBarColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationBarColor-dummy.m"; sourceTree = "<group>"; };
 		68BC691C67B0A64F7510D5C6298F4A80 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
 		6971FF4FC2D354A79275D7A0E176A2EC /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
+		6B1BE374A716A1F3EE55FDC2E5FA6047 /* Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B7283F4C347135472840AFDA74C4E5A /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
+		6C3BC92E08C79EA8E49574012C640FFA /* Pods_SwiftUINavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUINavigationBarColor__iOS_.framework; path = "Pods-SwiftUINavigationBarColor (iOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD90DC04A8EE437DF70BED5C4A8D946 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		71C4F5A4BEF6FD704D27CA646E0D3663 /* Pods-NavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		701F31DBD77A0832FCC4F48DC5DFCB8B /* SwiftUINavigationBarColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUINavigationBarColor-prefix.pch"; sourceTree = "<group>"; };
 		73141CA135219B195CA9C9BBE8BC38E0 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		7425C80AFE5874C82C321C25C8FD8E4E /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		75423B81B53812C99CD2B45F03DB3037 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
@@ -239,77 +236,81 @@
 		7D9304D037786B05B215A100D854D943 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		7E30B4EFCE7868E0DBE8E364AD275301 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		802103650A4E5841D47428C4B297B890 /* BeginWithPrefix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWithPrefix.swift; path = Sources/Nimble/Matchers/BeginWithPrefix.swift; sourceTree = "<group>"; };
+		803B3EEEAF7F4F120771B42C3CB6C8F4 /* Pods-Tests iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests iOS-dummy.m"; sourceTree = "<group>"; };
 		81545145A1C5A4394570ECEC1644AC94 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		817BE9A694522F7F4026799121CBA1C7 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
+		8538004EDDA53EAB0CEFC9E63DCC75BA /* Pods-Tests iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests iOS-frameworks.sh"; sourceTree = "<group>"; };
 		8599C685A6E9088137A44D9BD36F320D /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		85BB1858F6652DC026D80938BD29DD97 /* DispatchTimeInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchTimeInterval.swift; path = Sources/Nimble/Utils/DispatchTimeInterval.swift; sourceTree = "<group>"; };
 		8D419D9857BEDF4AABA8218936B3677E /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
-		8E3D8A1A183F92E93951A3AE188FEBBC /* Pods_NavigationBarColor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationBarColor__iOS_.framework; path = "Pods-NavigationBarColor (iOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD76FF5D5F3AC8A3C06A6D3409E3405 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
-		8FD8C1937E53A98A66496F0C019AB679 /* NavigationBarColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationBarColor.debug.xcconfig; sourceTree = "<group>"; };
+		902F14D497C1FBB77E47346793866B9B /* Pods-SwiftUINavigationBarColor (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUINavigationBarColor (iOS)-umbrella.h"; sourceTree = "<group>"; };
 		90A8B866BF1B5741F3E8FDA8E728708F /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		917DABFABA971087CC881C67BBCB896A /* QuickObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickObjCRuntime.h; path = Sources/QuickObjCRuntime/include/QuickObjCRuntime.h; sourceTree = "<group>"; };
 		92908130014A01F433AEE156BE66A71F /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
+		96E6527C900E9C2BEF38308C60E4D156 /* Pods-SwiftUINavigationBarColor (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUINavigationBarColor (iOS).modulemap"; sourceTree = "<group>"; };
 		96F8F92D4F337391CA98495AED7459FB /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		9817083983497DB3ED6001E3E97533CB /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		98AD1D4272540420383C7922F88E000E /* Nimble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-Info.plist"; sourceTree = "<group>"; };
-		98B6E3ADBDE61ED60C5C2C4EA05E6ABC /* Pods-NavigationBarColor (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationBarColor (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
-		9CE0067297771EA7FB3A1873DB40337E /* Pods-Tests iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99F3CAAF749446006A34370E1A39B403 /* SwiftUINavigationBarColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftUINavigationBarColor.framework; path = SwiftUINavigationBarColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D790CFC0DD27CF5E3726D13716B8457 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A171B102065166A815C868948FAC4F2B /* NavigationBarColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationBarColor-prefix.pch"; sourceTree = "<group>"; };
+		A0B16DD6DB319FE50FDE694C5A100F6B /* SwiftUINavigationBarColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftUINavigationBarColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E6D0F0B64E0881BB387BFDBBAEDE64 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		A470111C67BC287D9A56966777DB4790 /* Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A565AB2A63D27ACF855DE572A8749763 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		A6C5FFCE728F500A55B615C75FC516F6 /* Pods-NavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		A789DFAD27D89A0DA5B60793DB255366 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		A93FF845443E835A464CC0A55B6A3DD1 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
 		ACA8E066CB31D5BC83F54CCFE6CFD9B8 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		ACCFB9311ED98345A6282A28A6CFAD83 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
-		AD7C0675F87AEE7AE5A497E642A2A7B6 /* Pods-NavigationBarColor (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationBarColor (iOS)-frameworks.sh"; sourceTree = "<group>"; };
 		ADA676B386635A5851AD41777A665907 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		B21527CBB18D2CA0A560847DC51F9A08 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		B25751F36800946C1A1A22406B3596FE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		B3A6C6DA8267274529580FC6BB388664 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		B5912F55BE3AA373DBEF439FEAE802EC /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		B778739B132B4FEC875F9615ED37CAEA /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
-		B7BA64CC2C3E59223330D97A6D9436F6 /* NavigationBarColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationBarColor-Info.plist"; sourceTree = "<group>"; };
 		B9973833824E7ED01540C73DCB2C1247 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2DD27CB90704924D6D50162205BD97 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
+		BD7772BA9F812EC900085F3ACA851483 /* Pods-SwiftUINavigationBarColor (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUINavigationBarColor (iOS)-dummy.m"; sourceTree = "<group>"; };
 		BEE0135D5FDA5A4415EADADB336B9246 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		C0EE0182653D00926C08100E31BD3795 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		C234427DC01A4C983F67F5875E295B28 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		C3107E43F634AF3B221072AD06EDC701 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		C32AB187117AEE98EAB4A256EE2301DD /* NavigationBarColorModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarColorModifier.swift; path = SwiftUINavigationBarColor/Classes/NavigationBarColorModifier.swift; sourceTree = "<group>"; };
 		C3862A4029F0AE7BD5D04E22605C911F /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		C398A9D17862A4A4F45ADB5FA7444E92 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		C9A8C54BCC030D66063C4B8D24917436 /* Pods-NavigationBarColor (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationBarColor (iOS)-Info.plist"; sourceTree = "<group>"; };
 		C9F5C65CA8F308F74190933D608601A6 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CB3DC3139A1280CF034113B965D1A718 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
-		CEBB0ECC137D6092643C4B319023ABA1 /* Pods-NavigationBarColor (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NavigationBarColor (iOS).modulemap"; sourceTree = "<group>"; };
-		CF12FF82AE14191FB872E3E655A5271B /* NavigationBarColorModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarColorModifier.swift; path = NavigationBarColor/Classes/NavigationBarColorModifier.swift; sourceTree = "<group>"; };
+		CED12034364B561E2A7F61C320E4B9C1 /* SwiftUINavigationBarColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUINavigationBarColor.release.xcconfig; sourceTree = "<group>"; };
 		D1CA7814D47356EA90B9ECB4FDB3F859 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		D2260C794799F55A91583EE1607C5B78 /* Pods-Tests iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests iOS-dummy.m"; sourceTree = "<group>"; };
 		D23387148BE56CC3EB877BEE9F509DA9 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		D2CC867E16210A5E3628561E0E52DAED /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		D4E2C15C441CA8CC0F78ADA411805F84 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUINavigationBarColor (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		D5B43003D6ABD01C9284901F5EBCC436 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D864B01792C2475774D9271679F17B9A /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
 		DBCE4BA046CAEB42619707DBED53725C /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
+		DDA5D936EAA6195E47D1EF142A46F435 /* Pods-Tests iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tests iOS.modulemap"; sourceTree = "<group>"; };
 		DF94FC72A13BF0869E53344A9461EEC7 /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tests_iOS.framework; path = "Pods-Tests iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FE7DF20C0080F14BDF5F181BF2345F /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
+		E2D44BAB7EFD6A7DA32D832D4E7B45FD /* NavigationBarTransparentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarTransparentStyle.swift; path = SwiftUINavigationBarColor/Classes/NavigationBarTransparentStyle.swift; sourceTree = "<group>"; };
 		E4097A6637537D84D28A10721A2E7EC6 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		E44D64C97F0EB045C86340CAD74FF65D /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		E5207C4D8365FB324A7064CEAED8E497 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		E6B078FDEFF43D01A46CEC09B78FA029 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
+		E75F3C3A52FA8FF1C9CF4F41353BEB3A /* SwiftUINavigationBarColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUINavigationBarColor-Info.plist"; sourceTree = "<group>"; };
 		E762B92915992D34CF1197690DD6C504 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
-		E95ADBA240548D06BD850EF068D4509D /* Pods-Tests iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests iOS-umbrella.h"; sourceTree = "<group>"; };
+		E8C245109CDE6C2FFCA188D7AE8326C1 /* SwiftUINavigationBarColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUINavigationBarColor-dummy.m"; sourceTree = "<group>"; };
 		EA20C87137C7C7A9356234D9535104D4 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
-		EAC78A7CBAC55E286F8CF11450D00072 /* Pods-Tests iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests iOS-Info.plist"; sourceTree = "<group>"; };
 		EB293BEEC38AC66C26BFE450BF27D14F /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		EC7C9BFBE17C3F91CEB7AEF368D4BF50 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
+		ECC2DE5931BF043C8B5A7B2E02249C4D /* Pods-Tests iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests iOS-Info.plist"; sourceTree = "<group>"; };
 		ED05FA78925BC3E8E8D05CC3D3321291 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		EEB539966A7AFD5CB6811DAA9B761F1B /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		F01872A5724C80F9F66F85BE505EF41E /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		F0CC2D566D5FDF7981081C8C4D3648C2 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
-		F817580146CC7E4898E4E3D966BA79CA /* NavigationBarColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NavigationBarColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F54C051DF8274B66BB56395165D593F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FB69E074D53782BE2F1E1AEC1CAA6797 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		FCA2F2ED2C8A41C278097D187DEBE989 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickObjCRuntime/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		FD192718D9180DF715E2B12BD4F99324 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
@@ -318,15 +319,22 @@
 		FE05B0AC3FA989A47A0C2BCE00A237B9 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		FE5808B9A93D2F619B1FB8E6A7D46F1C /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		FECCD0DFA1B5AC88BE310179E43A5722 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
-		FEDC3F8F44267A743186FB19D8E8B2A1 /* NavigationBarColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationBarColor.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		438AB7A70B5883B487695911E9BA3678 /* Frameworks */ = {
+		333BDFEE4D512F0F3D133A40BC55D02D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687335EAE2FE23CF71725D05D670E6F3 /* Foundation.framework in Frameworks */,
+				E2C904C49C35CFFC14C0E668E0CC2A9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFC79BCB037698390242587DA072FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47A61A5E1BD9D52469B2D79FAB6F4DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,32 +355,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F840D27A54BD6E293552D490B0F27AC /* Frameworks */ = {
+		B09A8F2C3FC4144E0D1CC88EC0F3BBA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCE6EED1E0E77ECACA566078E1EEEA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA0049A30DF7362D3680B201DFF14062 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF4742B40EFECC9B146E953BE190EA04 /* Foundation.framework in Frameworks */,
+				D4EF70157EB0C28AF63A5AE444053129 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		048F85DA820C2A9B23A3709903251B9D /* Targets Support Files */ = {
+		062FEAAE85377A1A3A8F471D6283D650 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8272E32D43BC5EEBB6B67194BD78D000 /* Pods-NavigationBarColor (iOS) */,
-				59DF3B998B3DDDB93586EA6B2E87954F /* Pods-Tests iOS */,
+				5533A50C9B1F83AAC1223C0DF7E40C27 /* SwiftUINavigationBarColor */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -383,16 +382,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1A42550F14816E195AFE9D2CF986B302 /* Products */ = {
+		1B2BFB29D7884F9014892964D3D8ACAF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55DE8492F3793DBF836B72B8564AE9AC /* NavigationBarColor.framework */,
-				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
-				8E3D8A1A183F92E93951A3AE188FEBBC /* Pods_NavigationBarColor__iOS_.framework */,
-				DF94FC72A13BF0869E53344A9461EEC7 /* Pods_Tests_iOS.framework */,
-				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
+				0A4711ACBC343B411A7ECD68CF331E4F /* SwiftUINavigationBarColor.modulemap */,
+				E8C245109CDE6C2FFCA188D7AE8326C1 /* SwiftUINavigationBarColor-dummy.m */,
+				E75F3C3A52FA8FF1C9CF4F41353BEB3A /* SwiftUINavigationBarColor-Info.plist */,
+				701F31DBD77A0832FCC4F48DC5DFCB8B /* SwiftUINavigationBarColor-prefix.pch */,
+				3058CB2EB67CCED42539990F6DB457D6 /* SwiftUINavigationBarColor-umbrella.h */,
+				2A8717DBFED60B3BAEDEE8E4FA48364A /* SwiftUINavigationBarColor.debug.xcconfig */,
+				CED12034364B561E2A7F61C320E4B9C1 /* SwiftUINavigationBarColor.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftUINavigationBarColor";
 			sourceTree = "<group>";
 		};
 		234920750B70631E944AAFECC3A3E59F /* Nimble */ = {
@@ -475,21 +477,33 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
-		59DF3B998B3DDDB93586EA6B2E87954F /* Pods-Tests iOS */ = {
+		30879D27D2A1BD6A066F053F7494F51F /* Pods-Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				40D0110058593E254F8401989BEAAFB2 /* Pods-Tests iOS.modulemap */,
-				9CE0067297771EA7FB3A1873DB40337E /* Pods-Tests iOS-acknowledgements.markdown */,
-				24872E4FA15B8505286CCFCA11098520 /* Pods-Tests iOS-acknowledgements.plist */,
-				D2260C794799F55A91583EE1607C5B78 /* Pods-Tests iOS-dummy.m */,
-				4B327845C105CAE47CE1C456F7C1F3F4 /* Pods-Tests iOS-frameworks.sh */,
-				EAC78A7CBAC55E286F8CF11450D00072 /* Pods-Tests iOS-Info.plist */,
-				E95ADBA240548D06BD850EF068D4509D /* Pods-Tests iOS-umbrella.h */,
-				0187E19C3F78737FF9CFEA66464D7E8E /* Pods-Tests iOS.debug.xcconfig */,
-				27677D68DC0D873E7E2FC29E1F9A49FB /* Pods-Tests iOS.release.xcconfig */,
+				DDA5D936EAA6195E47D1EF142A46F435 /* Pods-Tests iOS.modulemap */,
+				467245C156D63C84FD72510649431E7C /* Pods-Tests iOS-acknowledgements.markdown */,
+				08ED134B7B0DA5B21CB8EC96CD2C6D3C /* Pods-Tests iOS-acknowledgements.plist */,
+				803B3EEEAF7F4F120771B42C3CB6C8F4 /* Pods-Tests iOS-dummy.m */,
+				8538004EDDA53EAB0CEFC9E63DCC75BA /* Pods-Tests iOS-frameworks.sh */,
+				ECC2DE5931BF043C8B5A7B2E02249C4D /* Pods-Tests iOS-Info.plist */,
+				3DEFB313CCA5182D31DB1F0EB67519B3 /* Pods-Tests iOS-umbrella.h */,
+				4BF6936F4544A736B787CFBEB516074D /* Pods-Tests iOS.debug.xcconfig */,
+				09E3967D546765E7D3717EB44E43A199 /* Pods-Tests iOS.release.xcconfig */,
 			);
 			name = "Pods-Tests iOS";
 			path = "Target Support Files/Pods-Tests iOS";
+			sourceTree = "<group>";
+		};
+		5533A50C9B1F83AAC1223C0DF7E40C27 /* SwiftUINavigationBarColor */ = {
+			isa = PBXGroup;
+			children = (
+				C32AB187117AEE98EAB4A256EE2301DD /* NavigationBarColorModifier.swift */,
+				E2D44BAB7EFD6A7DA32D832D4E7B45FD /* NavigationBarTransparentStyle.swift */,
+				C443087F5889AEF020BDE42114F630F2 /* Pod */,
+				1B2BFB29D7884F9014892964D3D8ACAF /* Support Files */,
+			);
+			name = SwiftUINavigationBarColor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E5757EBADB7784C3F3A9CAA043B4E9B /* Support Files */ = {
@@ -507,41 +521,25 @@
 			path = "../Target Support Files/Quick";
 			sourceTree = "<group>";
 		};
-		7CE3DE1F8EC89EB863153CEFD994EF07 /* Development Pods */ = {
+		8DD10D12A2195F5B20F248751579178F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				802911CD32573F3AE43710AC21BD4CA0 /* NavigationBarColor */,
+				BD7BEBECD8743FA3B3F87047A3658697 /* Pods-SwiftUINavigationBarColor (iOS) */,
+				30879D27D2A1BD6A066F053F7494F51F /* Pods-Tests iOS */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		802911CD32573F3AE43710AC21BD4CA0 /* NavigationBarColor */ = {
+		95D3939A91946AA408A31A32368AC8A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF12FF82AE14191FB872E3E655A5271B /* NavigationBarColorModifier.swift */,
-				46C7A04C1CABCCD178307A90A84D5785 /* NavigationBarTransparentStyle.swift */,
-				EA0DB31E3F9A3253922E4A4638F29FB1 /* Pod */,
-				EBFF3150BBDAA53AD51BFEF6AFC8F4F8 /* Support Files */,
+				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
+				6C3BC92E08C79EA8E49574012C640FFA /* Pods_SwiftUINavigationBarColor__iOS_.framework */,
+				DF94FC72A13BF0869E53344A9461EEC7 /* Pods_Tests_iOS.framework */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
+				99F3CAAF749446006A34370E1A39B403 /* SwiftUINavigationBarColor.framework */,
 			);
-			name = NavigationBarColor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8272E32D43BC5EEBB6B67194BD78D000 /* Pods-NavigationBarColor (iOS) */ = {
-			isa = PBXGroup;
-			children = (
-				CEBB0ECC137D6092643C4B319023ABA1 /* Pods-NavigationBarColor (iOS).modulemap */,
-				64DBAFA4D29A89448D73CA27A33E79A4 /* Pods-NavigationBarColor (iOS)-acknowledgements.markdown */,
-				98B6E3ADBDE61ED60C5C2C4EA05E6ABC /* Pods-NavigationBarColor (iOS)-acknowledgements.plist */,
-				144A3BE5418D3388D36BDF87449FC154 /* Pods-NavigationBarColor (iOS)-dummy.m */,
-				AD7C0675F87AEE7AE5A497E642A2A7B6 /* Pods-NavigationBarColor (iOS)-frameworks.sh */,
-				C9A8C54BCC030D66063C4B8D24917436 /* Pods-NavigationBarColor (iOS)-Info.plist */,
-				2E599FEFC313EFAED44E836C4C746923 /* Pods-NavigationBarColor (iOS)-umbrella.h */,
-				A6C5FFCE728F500A55B615C75FC516F6 /* Pods-NavigationBarColor (iOS).debug.xcconfig */,
-				71C4F5A4BEF6FD704D27CA646E0D3663 /* Pods-NavigationBarColor (iOS).release.xcconfig */,
-			);
-			name = "Pods-NavigationBarColor (iOS)";
-			path = "Target Support Files/Pods-NavigationBarColor (iOS)";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		974814B39C0012DECD183BBB91B32103 /* iOS */ = {
@@ -604,41 +602,43 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		BD7BEBECD8743FA3B3F87047A3658697 /* Pods-SwiftUINavigationBarColor (iOS) */ = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7CE3DE1F8EC89EB863153CEFD994EF07 /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				B716C811F0F14528B6525E2277EA7060 /* Pods */,
-				1A42550F14816E195AFE9D2CF986B302 /* Products */,
-				048F85DA820C2A9B23A3709903251B9D /* Targets Support Files */,
+				96E6527C900E9C2BEF38308C60E4D156 /* Pods-SwiftUINavigationBarColor (iOS).modulemap */,
+				A470111C67BC287D9A56966777DB4790 /* Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.markdown */,
+				6B1BE374A716A1F3EE55FDC2E5FA6047 /* Pods-SwiftUINavigationBarColor (iOS)-acknowledgements.plist */,
+				BD7772BA9F812EC900085F3ACA851483 /* Pods-SwiftUINavigationBarColor (iOS)-dummy.m */,
+				2A662BBC1FC049EAF73FB2DD36EA7BDF /* Pods-SwiftUINavigationBarColor (iOS)-frameworks.sh */,
+				44F483D1E293420764D37C547A855F86 /* Pods-SwiftUINavigationBarColor (iOS)-Info.plist */,
+				902F14D497C1FBB77E47346793866B9B /* Pods-SwiftUINavigationBarColor (iOS)-umbrella.h */,
+				B21527CBB18D2CA0A560847DC51F9A08 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */,
+				D4E2C15C441CA8CC0F78ADA411805F84 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */,
 			);
+			name = "Pods-SwiftUINavigationBarColor (iOS)";
+			path = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)";
 			sourceTree = "<group>";
 		};
-		EA0DB31E3F9A3253922E4A4638F29FB1 /* Pod */ = {
+		C443087F5889AEF020BDE42114F630F2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4F110B85250D85B28DD5EB5D1AC06FC0 /* LICENSE */,
-				F817580146CC7E4898E4E3D966BA79CA /* NavigationBarColor.podspec */,
-				043F5603A9D8364BDB67FBFA3F7BCE94 /* README.md */,
+				F54C051DF8274B66BB56395165D593F0 /* LICENSE */,
+				D5B43003D6ABD01C9284901F5EBCC436 /* README.md */,
+				A0B16DD6DB319FE50FDE694C5A100F6B /* SwiftUINavigationBarColor.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		EBFF3150BBDAA53AD51BFEF6AFC8F4F8 /* Support Files */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				125BFDA039C8753B62530AEC292F72E0 /* NavigationBarColor.modulemap */,
-				66D8A6DA5996B27CB080705951E5EBD8 /* NavigationBarColor-dummy.m */,
-				B7BA64CC2C3E59223330D97A6D9436F6 /* NavigationBarColor-Info.plist */,
-				A171B102065166A815C868948FAC4F2B /* NavigationBarColor-prefix.pch */,
-				4E792AF662F227826557D5FA614E636C /* NavigationBarColor-umbrella.h */,
-				8FD8C1937E53A98A66496F0C019AB679 /* NavigationBarColor.debug.xcconfig */,
-				FEDC3F8F44267A743186FB19D8E8B2A1 /* NavigationBarColor.release.xcconfig */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				062FEAAE85377A1A3A8F471D6283D650 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B716C811F0F14528B6525E2277EA7060 /* Pods */,
+				95D3939A91946AA408A31A32368AC8A2 /* Products */,
+				8DD10D12A2195F5B20F248751579178F /* Targets Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NavigationBarColor";
 			sourceTree = "<group>";
 		};
 		F923BB2138842707ACB953DF108B2BFC /* Support Files */ = {
@@ -659,27 +659,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15AB38D13327C1E8B29D80FF85356FF0 /* Headers */ = {
+		03263683CA98AE85D8CCB931FF9C7CDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4119C4D8276F53EDE6251D9D6F7D83B /* Pods-NavigationBarColor (iOS)-umbrella.h in Headers */,
+				B2F10949B173299477FFE6C2CCDA0291 /* Pods-Tests iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19B60591C488DC9144B9F24F8566C2E5 /* Headers */ = {
+		13425B6F7910D23A32CA5E957C4AFF76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D032B47E930AB9302B8C1C602EFE19D /* Pods-Tests iOS-umbrella.h in Headers */,
+				26FFA2E1AEC8E8DBF1ECB5AF03E29C96 /* Pods-SwiftUINavigationBarColor (iOS)-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D3CF2B2DB1DE7B0E19C5BD73FE26CDE /* Headers */ = {
+		7AEA4F97C93BEE27F9E44E431DB9DF4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672CD623EA018C5C22A3EB358E9F2535 /* NavigationBarColor-umbrella.h in Headers */,
+				5C8646C63C7FEC2387A2E457416A9188 /* SwiftUINavigationBarColor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,41 +717,23 @@
 /* Begin PBXNativeTarget section */
 		3E4F19A7E45441E092596EC627269BCA /* Pods-Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF4325204799B4862A7138FA7ABAC315 /* Build configuration list for PBXNativeTarget "Pods-Tests iOS" */;
+			buildConfigurationList = 0F07D3EC0D9EB5DB792A578E1309A1D8 /* Build configuration list for PBXNativeTarget "Pods-Tests iOS" */;
 			buildPhases = (
-				19B60591C488DC9144B9F24F8566C2E5 /* Headers */,
-				C829C720342FCF510284FF78C06C67FA /* Sources */,
-				8F840D27A54BD6E293552D490B0F27AC /* Frameworks */,
-				B90188F5A8B59296CE87D058622A3C0B /* Resources */,
+				03263683CA98AE85D8CCB931FF9C7CDC /* Headers */,
+				EDFCA8607BAE04CCCE12D7A5B58EFC26 /* Sources */,
+				333BDFEE4D512F0F3D133A40BC55D02D /* Frameworks */,
+				CD9948D2BC0D85B570D1A067A5FED717 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCBB704B627B81FA18D012C9870001CF /* PBXTargetDependency */,
-				B5B9413129EBFB946D4AF80C2141717A /* PBXTargetDependency */,
-				F0A214EE517A84517DC409DBB417CD03 /* PBXTargetDependency */,
+				562EEB7802E4EC0FCB96571DB725649D /* PBXTargetDependency */,
+				8F482BDB002E2ACF569D2D1982B5B992 /* PBXTargetDependency */,
+				0DBD907BA646EDF4C00058ED54BCD770 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests iOS";
 			productName = "Pods-Tests iOS";
 			productReference = DF94FC72A13BF0869E53344A9461EEC7 /* Pods_Tests_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		664DC93157607FE30865BF970C210420 /* NavigationBarColor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC04454A1110C5343CE7491F01F75A0 /* Build configuration list for PBXNativeTarget "NavigationBarColor" */;
-			buildPhases = (
-				5D3CF2B2DB1DE7B0E19C5BD73FE26CDE /* Headers */,
-				C8B87AE5913B1369CE6116D58AA3BBD7 /* Sources */,
-				438AB7A70B5883B487695911E9BA3678 /* Frameworks */,
-				32DC20E2D0D42B7D7F5E0553B730DE88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NavigationBarColor;
-			productName = NavigationBarColor;
-			productReference = 55DE8492F3793DBF836B72B8564AE9AC /* NavigationBarColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */ = {
@@ -772,23 +754,41 @@
 			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C249A08B63B4EE9F4036A7CA19FF96D2 /* Pods-NavigationBarColor (iOS) */ = {
+		9C1EEDA89C9EC0A851B07D07578CFD5D /* Pods-SwiftUINavigationBarColor (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EA3B2CB1876ECFFEB2A84ADC6D2D6B5 /* Build configuration list for PBXNativeTarget "Pods-NavigationBarColor (iOS)" */;
+			buildConfigurationList = 5A5ECAF6B7EC80C1E1C3774E911FC196 /* Build configuration list for PBXNativeTarget "Pods-SwiftUINavigationBarColor (iOS)" */;
 			buildPhases = (
-				15AB38D13327C1E8B29D80FF85356FF0 /* Headers */,
-				F55F5D609E4AF5F1F8613927A5BB40B3 /* Sources */,
-				CA0049A30DF7362D3680B201DFF14062 /* Frameworks */,
-				8770CCFC97A6DF73936CB5FBAA2631D5 /* Resources */,
+				13425B6F7910D23A32CA5E957C4AFF76 /* Headers */,
+				D28B7CE36DDDFE413BBC2D8BC99521F7 /* Sources */,
+				B09A8F2C3FC4144E0D1CC88EC0F3BBA9 /* Frameworks */,
+				7EA16E83A9F66AABD81B020C43B36FF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B123987D81A8540886E62A1CC4F55A93 /* PBXTargetDependency */,
+				FE2830E97B340AD7239E81A8A827F868 /* PBXTargetDependency */,
 			);
-			name = "Pods-NavigationBarColor (iOS)";
-			productName = "Pods-NavigationBarColor (iOS)";
-			productReference = 8E3D8A1A183F92E93951A3AE188FEBBC /* Pods_NavigationBarColor__iOS_.framework */;
+			name = "Pods-SwiftUINavigationBarColor (iOS)";
+			productName = "Pods-SwiftUINavigationBarColor (iOS)";
+			productReference = 6C3BC92E08C79EA8E49574012C640FFA /* Pods_SwiftUINavigationBarColor__iOS_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C28960FB654DF83A005E05C3CDF0E65E /* SwiftUINavigationBarColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6D17BD7E3D9186EE1C372AACAE0EAA /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor" */;
+			buildPhases = (
+				7AEA4F97C93BEE27F9E44E431DB9DF4F /* Headers */,
+				6BFE89E62E631406AF9D7A89B9BC04F5 /* Sources */,
+				5AFC79BCB037698390242587DA072FDA /* Frameworks */,
+				29951653F46AB1168162AACA8C3308E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUINavigationBarColor;
+			productName = SwiftUINavigationBarColor;
+			productReference = 99F3CAAF749446006A34370E1A39B403 /* SwiftUINavigationBarColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
@@ -819,7 +819,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -827,21 +827,21 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1A42550F14816E195AFE9D2CF986B302 /* Products */;
+			productRefGroup = 95D3939A91946AA408A31A32368AC8A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				664DC93157607FE30865BF970C210420 /* NavigationBarColor */,
 				6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */,
-				C249A08B63B4EE9F4036A7CA19FF96D2 /* Pods-NavigationBarColor (iOS) */,
+				9C1EEDA89C9EC0A851B07D07578CFD5D /* Pods-SwiftUINavigationBarColor (iOS) */,
 				3E4F19A7E45441E092596EC627269BCA /* Pods-Tests iOS */,
 				C82891EAB7293DBEE916B21F57E8474D /* Quick */,
+				C28960FB654DF83A005E05C3CDF0E65E /* SwiftUINavigationBarColor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32DC20E2D0D42B7D7F5E0553B730DE88 /* Resources */ = {
+		29951653F46AB1168162AACA8C3308E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -855,14 +855,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8770CCFC97A6DF73936CB5FBAA2631D5 /* Resources */ = {
+		7EA16E83A9F66AABD81B020C43B36FF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B90188F5A8B59296CE87D058622A3C0B /* Resources */ = {
+		CD9948D2BC0D85B570D1A067A5FED717 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -879,6 +879,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6BFE89E62E631406AF9D7A89B9BC04F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D6D81F00D680B96518805C41F0584C /* NavigationBarColorModifier.swift in Sources */,
+				A2BE8C0DEE8ACE748F02B76F655F3F27 /* NavigationBarTransparentStyle.swift in Sources */,
+				CCC979DCC14B3ABA916972735BCD5B26 /* SwiftUINavigationBarColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB6CA551A58E1C678E9D6EA1AC37FFEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -951,29 +961,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C829C720342FCF510284FF78C06C67FA /* Sources */ = {
+		D28B7CE36DDDFE413BBC2D8BC99521F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EAD199E07F8647988F430D324CEFFE /* Pods-Tests iOS-dummy.m in Sources */,
+				1750464E992135E6ED19C046EBB67EB2 /* Pods-SwiftUINavigationBarColor (iOS)-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B87AE5913B1369CE6116D58AA3BBD7 /* Sources */ = {
+		EDFCA8607BAE04CCCE12D7A5B58EFC26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E5EFE5CF62522FE53D8A60DE3FEA16 /* NavigationBarColor-dummy.m in Sources */,
-				B501A6DAEB86EADD586E528768A04E02 /* NavigationBarColorModifier.swift in Sources */,
-				F9EA7011BBF0B919294D88C6F2BADB40 /* NavigationBarTransparentStyle.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F55F5D609E4AF5F1F8613927A5BB40B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B222AB65E416BA1C485CFEC6CBBB783 /* Pods-NavigationBarColor (iOS)-dummy.m in Sources */,
+				F3176D1F64F483619A9D22BC65F0FFBB /* Pods-Tests iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,36 +1015,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B123987D81A8540886E62A1CC4F55A93 /* PBXTargetDependency */ = {
+		0DBD907BA646EDF4C00058ED54BCD770 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = NavigationBarColor;
-			target = 664DC93157607FE30865BF970C210420 /* NavigationBarColor */;
-			targetProxy = 1B4B2150D8D479C132C0131EF0F811B6 /* PBXContainerItemProxy */;
+			name = SwiftUINavigationBarColor;
+			target = C28960FB654DF83A005E05C3CDF0E65E /* SwiftUINavigationBarColor */;
+			targetProxy = DD99CBC3656E9C28DCB971BEC83C6215 /* PBXContainerItemProxy */;
 		};
-		B5B9413129EBFB946D4AF80C2141717A /* PBXTargetDependency */ = {
+		562EEB7802E4EC0FCB96571DB725649D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nimble;
 			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
-			targetProxy = 9BC47CA5E42B015C1F0A8E29DECE83F7 /* PBXContainerItemProxy */;
+			targetProxy = FF5F152AF58F35B5DC41C0A15D820A55 /* PBXContainerItemProxy */;
 		};
-		BCBB704B627B81FA18D012C9870001CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NavigationBarColor;
-			target = 664DC93157607FE30865BF970C210420 /* NavigationBarColor */;
-			targetProxy = 0DC74817ACF8D8A9BD4ACBBC23754446 /* PBXContainerItemProxy */;
-		};
-		F0A214EE517A84517DC409DBB417CD03 /* PBXTargetDependency */ = {
+		8F482BDB002E2ACF569D2D1982B5B992 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
 			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
-			targetProxy = 12D7FD483FE7FC5A5F75344F4224CE63 /* PBXContainerItemProxy */;
+			targetProxy = 01761433F78409B2B0DE440737A3F641 /* PBXContainerItemProxy */;
+		};
+		FE2830E97B340AD7239E81A8A827F868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUINavigationBarColor;
+			target = C28960FB654DF83A005E05C3CDF0E65E /* SwiftUINavigationBarColor */;
+			targetProxy = 9832BD5F825E0359A0EA0B1E88042184 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0443C67E25182E2E38C240CBC959D366 /* Release */ = {
+		3840522D37217FD0A7F5D6C8627FFCB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEDC3F8F44267A743186FB19D8E8B2A1 /* NavigationBarColor.release.xcconfig */;
+			baseConfigurationReference = 2A8717DBFED60B3BAEDEE8E4FA48364A /* SwiftUINavigationBarColor.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1055,58 +1055,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NavigationBarColor/NavigationBarColor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NavigationBarColor/NavigationBarColor-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/NavigationBarColor/NavigationBarColor.modulemap";
-				PRODUCT_MODULE_NAME = NavigationBarColor;
-				PRODUCT_NAME = NavigationBarColor;
+				MODULEMAP_FILE = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUINavigationBarColor;
+				PRODUCT_NAME = SwiftUINavigationBarColor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		05F4B1A01BCEA32E6343672FB28A34AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C5FFCE728F500A55B615C75FC516F6 /* Pods-NavigationBarColor (iOS).debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1178,6 +1141,79 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		5685C082114F524CE69CF796342767A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF6936F4544A736B787CFBEB516074D /* Pods-Tests iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B4438BB9ACE30C0211E676D27B959A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E3967D546765E7D3717EB44E43A199 /* Pods-Tests iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7CB210BA3AAC51F7595E86EA6539CD62 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1306,9 +1342,9 @@
 			};
 			name = Debug;
 		};
-		970AA62459B8C00EA919BABC14292CA4 /* Release */ = {
+		AD001F7F624302B1CEFAF2763BA37F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27677D68DC0D873E7E2FC29E1F9A49FB /* Pods-Tests iOS.release.xcconfig */;
+			baseConfigurationReference = B21527CBB18D2CA0A560847DC51F9A08 /* Pods-SwiftUINavigationBarColor (iOS).debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1320,7 +1356,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS)-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1328,7 +1364,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS).modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1336,77 +1372,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9914099C9F9D479ACC8B8229ACCDA0EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0187E19C3F78737FF9CFEA66464D7E8E /* Pods-Tests iOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A88E324507EE23F668CD77F63AA0F1F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FD8C1937E53A98A66496F0C019AB679 /* NavigationBarColor.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NavigationBarColor/NavigationBarColor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NavigationBarColor/NavigationBarColor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NavigationBarColor/NavigationBarColor.modulemap";
-				PRODUCT_MODULE_NAME = NavigationBarColor;
-				PRODUCT_NAME = NavigationBarColor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1445,11 +1410,10 @@
 			};
 			name = Debug;
 		};
-		C872BD00C72C111AE3A629341C7E7FAB /* Release */ = {
+		D712F33810FABE8D85A1F6A4D82D5F76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C4F5A4BEF6FD704D27CA646E0D3663 /* Pods-NavigationBarColor (iOS).release.xcconfig */;
+			baseConfigurationReference = CED12034364B561E2A7F61C320E4B9C1 /* SwiftUINavigationBarColor.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1459,22 +1423,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS)-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NavigationBarColor (iOS)/Pods-NavigationBarColor (iOS).modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftUINavigationBarColor/SwiftUINavigationBarColor.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUINavigationBarColor;
+				PRODUCT_NAME = SwiftUINavigationBarColor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1515,14 +1478,60 @@
 			};
 			name = Release;
 		};
+		ECDF2DD053759E19CF3CFFF8CBF54516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E2C15C441CA8CC0F78ADA411805F84 /* Pods-SwiftUINavigationBarColor (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUINavigationBarColor (iOS)/Pods-SwiftUINavigationBarColor (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EA3B2CB1876ECFFEB2A84ADC6D2D6B5 /* Build configuration list for PBXNativeTarget "Pods-NavigationBarColor (iOS)" */ = {
+		0F07D3EC0D9EB5DB792A578E1309A1D8 /* Build configuration list for PBXNativeTarget "Pods-Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F4B1A01BCEA32E6343672FB28A34AA /* Debug */,
-				C872BD00C72C111AE3A629341C7E7FAB /* Release */,
+				5685C082114F524CE69CF796342767A5 /* Debug */,
+				7B4438BB9ACE30C0211E676D27B959A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6D17BD7E3D9186EE1C372AACAE0EAA /* Build configuration list for PBXNativeTarget "SwiftUINavigationBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3840522D37217FD0A7F5D6C8627FFCB4 /* Debug */,
+				D712F33810FABE8D85A1F6A4D82D5F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1536,20 +1545,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC04454A1110C5343CE7491F01F75A0 /* Build configuration list for PBXNativeTarget "NavigationBarColor" */ = {
+		5A5ECAF6B7EC80C1E1C3774E911FC196 /* Build configuration list for PBXNativeTarget "Pods-SwiftUINavigationBarColor (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88E324507EE23F668CD77F63AA0F1F0 /* Debug */,
-				0443C67E25182E2E38C240CBC959D366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF4325204799B4862A7138FA7ABAC315 /* Build configuration list for PBXNativeTarget "Pods-Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9914099C9F9D479ACC8B8229ACCDA0EA /* Debug */,
-				970AA62459B8C00EA919BABC14292CA4 /* Release */,
+				AD001F7F624302B1CEFAF2763BA37F3C /* Debug */,
+				ECDF2DD053759E19CF3CFFF8CBF54516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

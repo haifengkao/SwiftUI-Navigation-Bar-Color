@@ -1,4 +1,4 @@
-# NavigationBarColor
+# SwiftUINavigationBarColor
 
 [![Version](https://img.shields.io/cocoapods/v/NavigationBarColor.svg?style=flat)](https://cocoapods.org/pods/NavigationBarColor)
 [![License](https://img.shields.io/cocoapods/l/NavigationBarColor.svg?style=flat)](https://cocoapods.org/pods/NavigationBarColor)
@@ -12,7 +12,7 @@ Change SwiftUI NavigationBar background color per screen.
 For `NavigationBarColor` to work, you have to set the NavigationBar's background to be transparent.
 If you want to change the navigation bar's text color, you have to set it here as well.
 ```
-import NavigationBarColor
+import SwiftUINavigationBarColor
 ...
 
 NavigationView {
