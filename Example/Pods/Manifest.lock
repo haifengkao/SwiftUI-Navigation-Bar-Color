@@ -1,7 +1,7 @@
 PODS:
   - Nimble (9.2.0)
   - Quick (4.0.0)
-  - SwiftUINavigationBarColor (0.7.0)
+  - SwiftUINavigationBarColor (0.8.0)
 
 DEPENDENCIES:
   - Nimble
@@ -12,10 +12,12 @@ EXTERNAL SOURCES:
   SwiftUINavigationBarColor:
     :path: "../"
 
+CHECKOUT OPTIONS: 
+
 SPEC CHECKSUMS:
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
-  SwiftUINavigationBarColor: 8de91dee4d3921fce31ad11fe8cd383ef4f2a49a
+  SwiftUINavigationBarColor: 7ffbd15a9a3fb7fb6e9fbfc19a9d07609f6934d8
 
 COCOAPODS: 1.10.2
 
