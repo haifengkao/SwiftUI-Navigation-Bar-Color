@@ -8,11 +8,6 @@ DEPENDENCIES:
   - Quick
   - SwiftUINavigationBarColor (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - Nimble
-    - Quick
-
 EXTERNAL SOURCES:
   SwiftUINavigationBarColor:
     :path: "../"
@@ -20,8 +15,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
-  SwiftUINavigationBarColor: d737c5b8259f598428bd1dbf6fc886c0e991f352
+  SwiftUINavigationBarColor: 8de91dee4d3921fce31ad11fe8cd383ef4f2a49a
 
-PODFILE CHECKSUM: 9e544e95aea5ff9ba3a2753b5bd76fa0a50d4594
+COCOAPODS: 1.10.2
 
-COCOAPODS: 1.10.1
+PODFILE CHECKSUM: 1c6eef4548ca6a7f5e65e4eabf9fdfed6d7055c4
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick

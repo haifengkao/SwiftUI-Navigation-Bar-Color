@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 // manual build: swift build -Xswiftc "-sdk" -Xswiftc "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios12.1-simulator"
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftUINavigationBarColor",
     platforms: [
-        // .macOS(.v10_15),
+        .macOS(.v11),
         .iOS(.v14),
     ],
     products: [
@@ -19,8 +19,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/Quick/Quick.git", from: "9.0.0"),
-        .package(url: "https://github.com/Quick/Nimble.git", from: "4.0.0"),
+        .package(url: "https://github.com/Quick/Quick.git", from: "4.0.0"),
+        .package(url: "https://github.com/Quick/Nimble.git", from: "9.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -42,7 +42,10 @@ let package = Package(
                 "Quick",
                 "Nimble",
             ],
-            path: "Example/Tests iOS"
+            path: "Example/Tests iOS",
+            exclude: [
+                "Info.plist",
+            ]
         ),
         .testTarget(
             name: "Tests macOS",
@@ -51,7 +54,10 @@ let package = Package(
                 "Quick",
                 "Nimble",
             ],
-            path: "Example/Tests macOS"
+            path: "Example/Tests macOS",
+            exclude: [
+                "Info.plist",
+            ]
         ),
     ]
 )

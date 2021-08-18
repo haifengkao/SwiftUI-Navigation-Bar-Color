@@ -5,22 +5,53 @@
 //  Created by Hai Feng Kao on 07/22/2021.
 //
 
-import SwiftUINavigationBarColor
 import SwiftUI
+import SwiftUINavigationBarColor
 
 struct ContentView: View {
+    #if os(iOS)
+        var iosView: some View {
+            NavigationView {
+                VStack {
+                    Text("Hello, world!").padding()
+                    NavigationLink(
+                        destination: DetailView1(),
+                        label: {
+                            Text("Next")
+                        }
+                    )
+                }
+
+                .navigationBarTitleDisplayMode(.inline)
+            }
+
+            .navigationTransparentBar(tintColor: .white)
+        }
+
+    #else
+
+        var macOSView: some View {
+            NavigationView {
+                VStack {
+                    Text("Hello, world!").padding()
+                    NavigationLink(
+                        destination: DetailView1(),
+                        label: {
+                            Text("Next")
+                        }
+                    )
+                }
+            }
+        }
+
+    #endif
+
     var body: some View {
-        NavigationView {
-            VStack {
-                Text("Hello, world!").padding()
-                NavigationLink(
-                    destination: DetailView1(),
-                    label: {
-                        Text("Next")
-                    }
-                )
-            }.navigationBarTitleDisplayMode(.inline)
-        }.navigationTransparentBar(tintColor: .white)
+        #if os(iOS)
+            iosView
+        #else
+            macOSView
+        #endif
     }
 }
 
@@ -78,9 +109,14 @@ struct DetailView4: View {
         VStack {
             Image("rainbow").resizable().background(Color.pink).edgesIgnoringSafeArea(.top)
         }.navigationBarBackground {
-            VisualEffectBlur(blurStyle: .systemChromeMaterialDark, vibrancyStyle: .fill) {
-                Color.clear
-            }
+            #if os(iOS)
+                VisualEffectBlur(blurStyle: .systemChromeMaterialDark, vibrancyStyle: .fill) {
+                    Color.clear
+                }
+
+            #else
+                VisualEffectBlur()
+            #endif
         }
     }
 }

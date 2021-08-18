@@ -1,0 +1,6 @@
+framework module SwiftUINavigationBarColor {
+  umbrella header "SwiftUINavigationBarColor-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

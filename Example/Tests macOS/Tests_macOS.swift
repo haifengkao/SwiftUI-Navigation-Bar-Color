@@ -1,9 +1,9 @@
 // https://github.com/Quick/Quick
 
 import Foundation
-import SwiftUINavigationBarColor
 import Nimble
 import Quick
+import SwiftUINavigationBarColor
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
