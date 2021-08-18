@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftUINavigationBarColor'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'Change SwiftUI Navigation Bar Color for different View'
 
   # This description is used to generate tags and improve search results.

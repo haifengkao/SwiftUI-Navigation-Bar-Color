@@ -1,6 +1,6 @@
 {
   "name": "SwiftUINavigationBarColor",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "summary": "Change SwiftUI Navigation Bar Color for different View",
   "description": "Change SwiftUI Navigation Bar Color for different View. You can use blur effect for navigation bar as well.",
   "homepage": "https://github.com/haifengkao/SwiftUI-Navigation-Bar-Color",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "git@github.com:haifengkao/SwiftUI-Navigation-Bar-Color.git",
-    "tag": "0.8.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "14.0",
